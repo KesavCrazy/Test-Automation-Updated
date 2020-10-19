@@ -1,0 +1,52 @@
+package com.kesav.Constants;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+
+public class MusicalProduct {
+
+		WebDriver driver;
+		ExtentTest test;
+		ExtentColor color;
+		public static Logger log = LogManager.getLogger(MusicalProduct.class.getName());
+		
+		 public MusicalProduct(WebDriver driver,ExtentTest test) {
+			 
+			 this.driver=driver;
+			 this.test=test;
+			 PageFactory.initElements(driver, this);
+		 }
+		 @FindBy(xpath="//span[contains(text(),'Alesis Nitro Mesh Kit | Eight Piece All-Mesh Elect')]")
+		 WebElement MeshKit;
+
+		 public void jasonBourne()
+		 {
+			 try
+				
+			 {
+				 	jasonBourne.click();	
+				 	test.log(Status.PASS, MarkupHelper.createLabel("jasonBourne : Clicked", color.GREEN));
+					log.error("jasonBourne Clicked");	 
+			 }
+				
+			    catch(NoSuchElementException e) {
+			    	test.log(Status.FAIL, MarkupHelper.createLabel("jasonBourne : Not Clicked", color.RED));
+			    	log.error("jasonBourne Not Clicked");
+			    	throw new NoSuchElementException(null);
+			}
+			
+		 
+		 }
+
+
+}

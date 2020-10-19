@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23893" started-at="2020-08-24T10:55:16Z" finished-at="2020-08-24T10:55:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23893" started-at="2020-08-24T10:55:16Z" finished-at="2020-08-24T10:55:40Z">
+      <class name="com.kesav.TestCases.EchoShow8Order">
+        <test-method status="PASS" signature="LaunchSite()[pri:0, instance:com.kesav.TestCases.EchoShow8Order@62ee68d8]" name="LaunchSite" is-config="true" duration-ms="12097" started-at="2020-08-24T16:25:16Z" finished-at="2020-08-24T16:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSite -->
+        <test-method status="PASS" signature="Homemenu()[pri:0, instance:com.kesav.TestCases.EchoShow8Order@62ee68d8]" name="Homemenu" duration-ms="11345" started-at="2020-08-24T16:25:28Z" finished-at="2020-08-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homemenu -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.kesav.TestCases.EchoShow8Order@62ee68d8]" name="Close" is-config="true" duration-ms="415" started-at="2020-08-24T16:25:39Z" finished-at="2020-08-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.EchoShow8Order -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

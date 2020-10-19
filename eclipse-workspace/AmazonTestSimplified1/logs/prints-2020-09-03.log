@@ -1,0 +1,7 @@
+11:14:22.534 [main] INFO  com.kesav.TestCases.BaseTest - Window Closed
+11:20:24.501 [main] DEBUG com.kesav.TestCases.BaseTest - Setting chrome driver property
+11:20:35.032 [main] DEBUG com.kesav.TestCases.BaseTest - Hitting Amazon Server
+11:20:42.401 [main] INFO  com.kesav.TestCases.BaseTest - Window Maximized
+11:21:11.876 [main] INFO  com.kesav.TestCases.BaseTest - Window Closed
+11:31:35.230 [main] DEBUG com.kesav.TestCases.BaseTest - Setting chrome driver property
+11:31:43.723 [main] DEBUG com.kesav.TestCases.BaseTest - Hitting Amazon Server

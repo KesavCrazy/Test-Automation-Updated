@@ -1,0 +1,42 @@
+14:18:42.819 [main] INFO  com.kesav.Utility.BaseTest - -------------------MusicalOrder---------------------------------
+14:19:00.965 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:19:01.037 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:19:10.533 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:19:37.312 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+14:19:39.059 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - Musical Instruments Clicked
+14:20:27.893 [main] INFO  com.kesav.Utility.BaseTest - -------------------MusicalOrder---------------------------------
+14:20:40.438 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:20:40.472 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:20:50.339 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:21:04.050 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - Musical Instruments Clicked
+14:21:11.193 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - searchIcon Clicked
+14:21:21.640 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:21:25.653 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice2  Clicked
+14:21:25.928 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+14:21:31.746 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+14:44:54.228 [main] INFO  com.kesav.Utility.BaseTest - -------------------MusicalOrder---------------------------------
+14:45:04.379 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:45:04.413 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:45:09.958 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:45:14.474 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - Musical Instruments Clicked
+14:45:19.244 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - searchIcon Clicked
+14:45:24.237 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:45:25.120 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice2  Clicked
+14:45:26.123 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+14:45:29.514 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+14:45:31.035 [main] ERROR com.kesav.Constants.MusicalProduct - ddjrr Clicked
+14:45:36.272 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Quantity Clicked
+14:45:38.626 [main] DEBUG com.kesav.Constants.HomeMenuComponents - addToCart Clicked
+15:31:38.567 [main] INFO  com.kesav.Utility.BaseTest - -------------------MusicalOrder---------------------------------
+15:31:44.994 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+15:31:45.002 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+15:31:51.887 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+15:31:56.385 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - Musical Instruments Clicked
+15:32:04.447 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - searchIcon Clicked
+15:32:16.037 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+15:32:19.593 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice2  Clicked
+15:32:20.205 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+15:32:21.868 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+15:32:25.481 [main] ERROR com.kesav.Constants.MusicalProduct - ddjrr Clicked
+15:32:33.857 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Quantity Clicked
+15:32:35.314 [main] DEBUG com.kesav.Constants.HomeMenuComponents - addToCart Clicked

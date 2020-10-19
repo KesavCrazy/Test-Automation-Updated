@@ -1,0 +1,9 @@
+16:28:48.187 [main] INFO  com.kesav.Utility.BaseTest - -------------------CyclingOrder---------------------------------
+16:28:54.523 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:28:54.528 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:28:58.574 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:29:03.730 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+16:29:12.494 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+16:29:13.415 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice2  Clicked
+16:29:14.109 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+16:29:15.386 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked

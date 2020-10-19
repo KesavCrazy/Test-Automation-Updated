@@ -1,0 +1,21 @@
+Feature: CheckUp Application Login
+
+@CheckTest
+Scenario: CheckUp Home page default login
+Given User is on landing page
+When check User login into application with excel at
+Then check page is populated
+And Cards displayed are "true"
+
+@kesavTEst
+Scenario Outline: CheckUp Seach for items and validation results
+Given CheckUp User is n greencart landing page
+When CheckUp User Searched for <Name> vegetables
+And CheckUp Added items to cart
+And CheckUp user needs to proceded to checkout page for purchase
+Then CheckUp verify selected <Name> item are displayed
+
+Examples:
+|Name		|
+|Brinjal	|
+|Beetroot	|

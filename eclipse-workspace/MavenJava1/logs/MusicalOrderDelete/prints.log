@@ -1,0 +1,30 @@
+15:59:46.573 [main] INFO  com.kesav.Utility.BaseTest - -------------------MusicalOrderDelete---------------------------------
+15:59:59.069 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:00:00.352 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:00:07.314 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:00:10.819 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - Musical Instruments Clicked
+16:00:16.211 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - searchIcon Clicked
+16:00:21.670 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+16:00:22.391 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice2  Clicked
+16:00:22.664 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+16:00:26.261 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+16:00:27.519 [main] ERROR com.kesav.Constants.MusicalProduct - ddjrr Clicked
+16:00:50.762 [main] INFO  com.kesav.Utility.BaseTest - -------------------MusicalOrderDelete---------------------------------
+16:00:59.258 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:00:59.276 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:01:05.455 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:01:09.167 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - Musical Instruments Clicked
+16:01:14.246 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - searchIcon Not Clicked
+16:36:03.420 [main] INFO  com.kesav.Utility.BaseTest - -------------------MusicalOrderDelete---------------------------------
+16:36:14.642 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:36:14.676 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:36:20.791 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:36:26.211 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - Musical Instruments Clicked
+16:36:32.658 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - searchIcon Clicked
+16:36:38.722 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+16:36:40.567 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice2  Clicked
+16:36:41.028 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+16:36:44.097 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+16:36:46.491 [main] ERROR com.kesav.Constants.MusicalProduct - ddjrr Clicked
+16:36:53.673 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Quantity Clicked
+16:37:02.562 [main] DEBUG com.kesav.Constants.HomeMenuComponents - addToCart Clicked

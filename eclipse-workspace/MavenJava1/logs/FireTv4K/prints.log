@@ -1,0 +1,7 @@
+16:27:35.523 [main] INFO  com.kesav.Utility.BaseTest - -------------------FireTv4K---------------------------------
+16:27:47.754 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:27:47.784 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:27:52.214 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:27:58.694 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+16:28:05.070 [main] ERROR com.kesav.Constants.HomeMenuComponents - Quantity Clicked
+16:28:05.454 [main] ERROR com.kesav.Constants.HomeMenuComponents - addToCart Clicked

@@ -1,0 +1,7 @@
+16:29:16.679 [main] INFO  com.kesav.Utility.BaseTest - -------------------KindleOasisOrder---------------------------------
+16:29:21.183 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:29:21.189 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:29:25.218 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:29:31.404 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+16:29:39.273 [main] ERROR com.kesav.Constants.HomeMenuComponents - Quantity Clicked
+16:29:42.685 [main] ERROR com.kesav.Constants.HomeMenuComponents - addToCart Clicked

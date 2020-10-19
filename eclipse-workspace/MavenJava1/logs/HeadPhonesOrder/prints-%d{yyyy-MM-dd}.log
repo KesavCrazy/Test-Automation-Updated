@@ -1,0 +1,12 @@
+14:37:51.500 [main] INFO  com.kesav.Utility.BaseTest - -------------------HeadPhonesOrder---------------------------------
+14:37:56.284 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:37:56.292 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:37:59.729 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:38:04.654 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+14:38:04.864 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+14:38:17.609 [main] DEBUG com.kesav.Constants.HomeMenuComponents - wiredWireless  Clicked
+14:38:20.632 [main] DEBUG com.kesav.Constants.HomeMenuComponents - sportAndFitness  Clicked
+14:38:21.176 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:38:22.230 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice2  Clicked
+14:38:22.457 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+14:38:24.418 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked

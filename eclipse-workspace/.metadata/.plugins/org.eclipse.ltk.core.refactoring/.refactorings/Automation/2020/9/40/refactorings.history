@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AmzOrder.feature&apos; to &apos;AmzOrder.feature&apos;&#x0D;&#x0A;- Original project: &apos;Automation&apos;&#x0D;&#x0A;- Destination element: &apos;AmzOrder.feature&apos;&#x0D;&#x0A;- Original element: &apos;AmzOrder.feature&apos;" description="Copy file" element1="src/test/java/Features/AmzOrder.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1601292460015" target="/Automation/src/test/java/Features/AmzOrder.feature" units="0" version="1.0"/>
+</session>

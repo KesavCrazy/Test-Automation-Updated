@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AmazonTest"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+<mapEntry key="com.kesav.ObjectRepo.AmazonAudibleAudioBook" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonBeautyHealthGrocery" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonCovid" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonCreateAccountPage" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonCreateAccountPageExcel" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonFullStoreDirect" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonGiftCards" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomeCareer" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomeGetToKnow" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomeHomeKitchenPet" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomeMenu" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomePage" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomePageAmzEcho" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomePageBabyProducts" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomePageComputerIcon" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomePagePantryIcon" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomePageSelectYourAddress" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomePageShoppingMadeEasy" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonHomePageTodaysDealIcon2" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonMobComputer" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonMovieMusicVideoGames" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonPrimeMusic" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonPrimeVideo" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonProductBook" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonProductOrder" value=""/>
+<mapEntry key="com.kesav.ObjectRepo.AmazonSignPage" value=""/>
+</mapAttribute>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.kesav.ObjectRepo.AmazonSignPage"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonMobComputer"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonPrimeVideo"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonProductBook"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomePagePantryIcon"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonFullStoreDirect"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonCreateAccountPageExcel"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomePageShoppingMadeEasy"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonMovieMusicVideoGames"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomeHomeKitchenPet"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomeCareer"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonCreateAccountPage"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonProductOrder"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomePageAmzEcho"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonAudibleAudioBook"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomePageSelectYourAddress"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonCovid"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomePageBabyProducts"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomePage"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonPrimeMusic"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomeMenu"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonGiftCards"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomePageTodaysDealIcon2"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonBeautyHealthGrocery"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomePageComputerIcon"/>
+<listEntry value="com.kesav.ObjectRepo.AmazonHomeGetToKnow"/>
+</listAttribute>
+<booleanAttribute key="org.testng.eclipse.DEBUG" value="false"/>
+<listAttribute key="org.testng.eclipse.GROUP_LIST"/>
+<listAttribute key="org.testng.eclipse.GROUP_LIST_CLASS"/>
+<stringAttribute key="org.testng.eclipse.LOG_LEVEL" value="2"/>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<stringAttribute key="org.testng.eclipse.PROTOCOL" value="json"/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+<booleanAttribute key="org.testng.eclipse.VERBOSE" value="false"/>
+</launchConfiguration>

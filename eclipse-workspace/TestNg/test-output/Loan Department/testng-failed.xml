@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]">
+  <listeners>
+    <listener class-name="com.kesav.TestNg.Listeners"/>
+  </listeners>
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.kesav.TestNg.Demo3">
+        <methods>
+          <include name="AfClass"/>
+          <include name="BfSuite"/>
+          <include name="WebLoginCarLoan"/>
+          <include name="BfClass"/>
+        </methods>
+      </class> <!-- com.kesav.TestNg.Demo3 -->
+      <class name="com.kesav.TestNg.Demo4">
+        <methods>
+          <include name="WebLoginCarHome"/>
+          <include name="Bfmethod"/>
+        </methods>
+      </class> <!-- com.kesav.TestNg.Demo4 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

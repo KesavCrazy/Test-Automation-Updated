@@ -1,0 +1,8 @@
+12:11:30.133 [main] INFO  com.kesav.Utility.BaseTest - -------------------PrestigeOrder---------------------------------
+12:11:35.023 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:11:35.029 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:11:39.267 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+12:11:43.503 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:11:46.811 [main] DEBUG com.kesav.Constants.HomeMenuComponents - homeKitchenPets clicked
+12:11:48.417 [main] DEBUG com.kesav.Constants.HomeMenuComponents - KitchenDining Clicked
+12:11:53.556 [main] ERROR com.kesav.Constants.AmountRange - LowPrice1 Not Clicked

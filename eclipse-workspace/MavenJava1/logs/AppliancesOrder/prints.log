@@ -1,0 +1,60 @@
+12:36:40.711 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+12:36:50.285 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:36:50.305 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:36:54.394 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+12:37:02.833 [main] ERROR com.kesav.Constants.HomeMenuComponents - kent Not Clicked
+12:39:26.042 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+12:39:34.159 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:39:34.186 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:39:46.222 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:20:42.324 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+14:20:52.216 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:20:52.250 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:20:56.994 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:21:03.492 [main] DEBUG com.kesav.Constants.HomeMenuComponents - kent  Clicked
+14:21:08.435 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:21:10.129 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+14:21:11.067 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice1  Clicked
+14:21:16.199 [main] ERROR com.kesav.Constants.HomeMenuComponents - kentBedVacuum Not Clicked
+14:22:19.499 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+14:22:28.455 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:22:28.473 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:22:33.872 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:22:55.251 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+14:23:04.878 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:23:04.896 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:23:09.003 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:26:14.414 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+14:26:23.152 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:26:23.175 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:26:29.590 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:27:13.664 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+14:27:22.086 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:27:22.103 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:27:25.836 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:27:35.740 [main] DEBUG com.kesav.Constants.HomeMenuComponents - kent  Clicked
+14:27:39.357 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:27:40.134 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+14:27:40.459 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice1  Clicked
+14:27:40.964 [main] ERROR com.kesav.Constants.HomeMenuComponents - kentBedVacuum Clicked
+14:27:51.894 [main] ERROR com.kesav.Constants.HomeMenuComponents - Quantity Not Clicked
+14:31:29.446 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+14:31:37.967 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:31:37.988 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:31:42.493 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:31:52.707 [main] DEBUG com.kesav.Constants.HomeMenuComponents - kent  Clicked
+14:31:55.456 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:31:56.229 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+14:31:56.689 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice1  Clicked
+14:31:57.381 [main] ERROR com.kesav.Constants.HomeMenuComponents - kentBedVacuum Clicked
+14:32:07.262 [main] ERROR com.kesav.Constants.HomeMenuComponents - Quantity Not Clicked
+14:33:26.205 [main] INFO  com.kesav.Utility.BaseTest - -------------------AppliancesOrder---------------------------------
+14:33:34.517 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:33:34.541 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:33:38.612 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:33:48.780 [main] DEBUG com.kesav.Constants.HomeMenuComponents - kent  Clicked
+14:33:51.721 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:33:52.340 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+14:33:52.987 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice1  Clicked
+14:33:53.756 [main] ERROR com.kesav.Constants.HomeMenuComponents - kentBedVacuum Clicked
+14:33:58.895 [main] DEBUG com.kesav.Constants.HomeMenuComponents - addToCart Clicked

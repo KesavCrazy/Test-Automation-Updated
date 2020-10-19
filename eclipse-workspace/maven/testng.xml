@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+    
+      <class name="com.kesav.TestCases.CreateAccountPageDataProviderExcel"/>
+      <class name="com.kesav.TestCases.MobileComputer"/>
+      <class name="com.kesav.TestCases.FullStoreDirNoOFLinks"/>
+      <class name="com.kesav.TestCases.HomePageHomeKitchenPet"/>
+      <class name="com.kesav.TestCases.HomePageNoOFLinks"/>
+      <class name="com.kesav.TestCases.HomePageAmzEcho"/>
+  
+      <class name="com.kesav.TestCases.HomePageComputer"/>
+      <class name="com.kesav.TestCases.HomePageShoppingDay"/>
+      <class name="com.kesav.TestCases.PrimeMusic"/>
+      <class name="com.kesav.TestCases.Covid"/>
+      <class name="com.kesav.TestCases.HomePageMenu"/>
+      <class name="com.kesav.TestCases.HomePagePantry"/>
+      <class name="com.kesav.TestCases.FullStore"/>
+      <class name="com.kesav.TestCases.CreateAccountPage"/>
+      <class name="com.kesav.TestCases.HomePageSelectAddress"/>
+      <class name="com.kesav.TestCases.BeautyHealthGrocery"/>
+      <class name="com.kesav.TestCases.HomePageHomeGetToKnow"/>
+      <class name="com.kesav.TestCases.PrimeVideo"/>
+      <class name="com.kesav.TestCases.MoviesMusicVideoGames"/>
+      <class name="com.kesav.TestCases.HomePageBabyProducts"/>
+      <class name="com.kesav.TestCases.GiftCards"/>
+      <class name="AmazonSeleniumTest.maven.AppTest"/>
+      <class name="com.kesav.TestCases.CreateAccountPageExcel"/>
+      <class name="com.kesav.TestCases.AudibleAudioBook"/>
+      <class name="com.kesav.TestCases.ProductOrderBook"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

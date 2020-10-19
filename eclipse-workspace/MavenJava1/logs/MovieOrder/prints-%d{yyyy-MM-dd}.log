@@ -1,0 +1,10 @@
+14:40:09.814 [main] INFO  com.kesav.Utility.BaseTest - -------------------MovieOrder---------------------------------
+14:40:14.168 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:40:14.175 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:40:18.109 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:40:22.542 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+14:40:30.065 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:40:30.651 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+14:40:31.097 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+14:40:34.051 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+14:40:39.187 [main] ERROR com.kesav.Constants.MovieProducts - jasonBourne Not Clicked

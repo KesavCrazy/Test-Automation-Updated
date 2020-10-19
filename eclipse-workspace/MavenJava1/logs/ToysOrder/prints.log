@@ -1,0 +1,13 @@
+14:45:56.977 [main] INFO  com.kesav.Utility.BaseTest - -------------------ToysOrder---------------------------------
+14:46:08.681 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:46:08.978 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:46:14.908 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:46:21.089 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+14:46:21.332 [main] DEBUG com.kesav.Constants.HomeMenuComponents - toysBabyProductsKidsFashion clicked
+14:46:25.596 [main] ERROR com.kesav.Constants.HomeMenuComponents - toysAndGames Clicked
+14:47:02.685 [main] INFO  com.kesav.Utility.BaseTest - -------------------ToysOrder---------------------------------
+14:47:10.825 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:47:10.851 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:47:14.470 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:47:24.902 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+14:47:25.133 [main] DEBUG com.kesav.Constants.HomeMenuComponents - toysBabyProductsKidsFashion clicked

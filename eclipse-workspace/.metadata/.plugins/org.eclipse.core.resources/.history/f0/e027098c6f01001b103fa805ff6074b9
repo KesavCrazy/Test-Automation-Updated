@@ -1,0 +1,42 @@
+package StepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import PageObject.AmazonHomePageAmzEcho;
+
+@RunWith(Cucumber.class)
+public class EchoOrder {
+	WebDriver driver;
+	
+	@When("^user is Entering into menu option$")
+    public void user_is_entering_into_menu_option() throws Throwable {
+		new AmazonHomePageAmzEcho(driver).menu();
+    }
+
+    @Then("^user is clicking echo$")
+    public void user_is_clicking_echo() throws Throwable {
+    	new AmazonHomePageAmzEcho(driver).echoAlexa();
+    }
+
+    @And("^user is clicking on fireTVDropDown$")
+    public void user_is_clicking_on_firetvdropdown() throws Throwable {
+    	new AmazonHomePageAmzEcho(driver).Echodot();
+    }
+
+    @And("^user is clicking on fireTV4K$")
+    public void user_is_clicking_on_firetv4k() throws Throwable {
+    	new AmazonHomePageAmzEcho(driver).quantity();
+    }
+
+    @And("^user is clicking on addToCart$")
+    public void user_is_clicking_on_addtocart() throws Throwable {
+
+}
+}

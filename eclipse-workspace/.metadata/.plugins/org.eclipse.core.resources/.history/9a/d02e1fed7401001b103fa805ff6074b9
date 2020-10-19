@@ -1,0 +1,17 @@
+package StepDefinitions;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+
+import Cucumber.Automation.Base;
+import cucumber.api.java.Before;
+
+public class Hooks2 {
+  public WebDriver driver;
+  
+	@Before("@AmzTest1")
+	public void Before() throws IOException {
+		 driver = Base2.getDriver();
+	}
+}

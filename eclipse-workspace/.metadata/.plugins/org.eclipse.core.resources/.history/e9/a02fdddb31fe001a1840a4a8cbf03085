@@ -1,0 +1,46 @@
+package StepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import Cucumber.Automation.Base;
+
+@RunWith(Cucumber.class)
+	public class CheckUp2 {
+
+		public class MyStepDefinitions {
+			WebDriver driver;
+			
+		    @Given("^CheckUp User is n greencart landing page$")
+		    public void checkup_user_is_n_greencart_landing_page() throws Throwable {
+		        driver=Base.getDriver();
+		    }
+
+		    @When("^CheckUp User Searched for (.+) vegetables$")
+		    public void checkup_user_searched_for_vegetables(String name) throws Throwable {
+		       
+		    }
+
+		    @Then("^CheckUp verify selected (.+) item are displayed$")
+		    public void checkup_verify_selected_item_are_displayed(String name) throws Throwable {
+		
+		    }
+
+		    @And("^CheckUp Added items to cart$")
+		    public void checkup_added_items_to_cart() throws Throwable {
+
+		    }
+
+		    @And("^CheckUp user needs to proceded to checkout page for purchase$")
+		    public void checkup_user_needs_to_proceded_to_checkout_page_for_purchase() throws Throwable {
+		     
+		    }
+
+		}
+}

@@ -1,0 +1,18 @@
+11:31:50.275 [main] INFO  com.kesav.TestCases.BaseTest - Window Maximized
+11:31:57.884 [main] INFO  com.kesav.TestCases.BaseTest - Window Closed
+12:01:50.252 [main] DEBUG com.kesav.TestCases.BaseTest - Setting chrome driver property
+12:02:00.486 [main] DEBUG com.kesav.TestCases.BaseTest - Hitting Amazon Server
+12:02:11.681 [main] INFO  com.kesav.TestCases.BaseTest - Window Maximized
+12:02:12.903 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:02:13.379 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:02:22.198 [main] DEBUG com.kesav.Constants.MenuTvAppliancesElectronicsComponents - tvAppliancesElectronics clicked
+12:02:25.272 [main] DEBUG com.kesav.Constants.TvLeftNav - androidBased clicked
+12:02:30.441 [main] ERROR com.kesav.Constants.TvLeftNav - fiftyFiveAbove Not Clicked
+12:02:31.272 [main] DEBUG com.kesav.Constants.TvLeftNav - fourStarsAbove clicked
+12:02:32.509 [main] DEBUG com.kesav.Constants.TvLeftNav - fourStarsAbove clicked
+12:02:32.776 [main] DEBUG com.kesav.Constants.TvLeftNav - maxPrice clicked
+12:02:41.198 [main] INFO  com.kesav.TestCases.BaseTest - Window Closed
+12:06:42.338 [main] DEBUG com.kesav.TestCases.BaseTest - Setting chrome driver property
+12:06:52.413 [main] DEBUG com.kesav.TestCases.BaseTest - Hitting Amazon Server
+12:06:58.851 [main] INFO  com.kesav.TestCases.BaseTest - Window Maximized
+12:07:22.075 [main] INFO  com.kesav.TestCases.BaseTest - Window Closed

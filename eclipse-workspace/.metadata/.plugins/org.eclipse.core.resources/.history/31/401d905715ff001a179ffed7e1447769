@@ -1,0 +1,27 @@
+package StepDefinitions;
+
+public class EchoOrder {
+	@When("^user is Entering into menu option$")
+    public void user_is_entering_into_menu_option() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^user is clicking echo$")
+    public void user_is_clicking_echo() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user is clicking on fireTVDropDown$")
+    public void user_is_clicking_on_firetvdropdown() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user is clicking on fireTV4K$")
+    public void user_is_clicking_on_firetv4k() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user is clicking on addToCart$")
+    public void user_is_clicking_on_addtocart() throws Throwable {
+        throw new PendingException();
+}

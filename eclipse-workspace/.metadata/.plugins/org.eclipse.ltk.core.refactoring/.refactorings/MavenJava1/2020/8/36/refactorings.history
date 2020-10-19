@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MavenJava1/Report&apos; to &apos;Reports&apos;" description="Rename resource &apos;Report&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Report" name="Reports" stamp="1598868154443" updateReferences="true"/>
+</session>

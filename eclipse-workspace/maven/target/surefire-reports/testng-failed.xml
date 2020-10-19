@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.kesav.TestCases.FullStore">
+        <methods>
+          <include name="AmazonFullStoreDir"/>
+          <include name="LaunchHomePage"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.FullStore -->
+      <class name="com.kesav.TestCases.HomePageShoppingDay">
+        <methods>
+          <include name="Close"/>
+          <include name="ShoppingDay"/>
+          <include name="LaunchHomePage"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.HomePageShoppingDay -->
+      <class name="com.kesav.TestCases.MoviesMusicVideoGames">
+        <methods>
+          <include name="LaunchLogin"/>
+          <include name="AmazonMovieMusicVideoGames"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.MoviesMusicVideoGames -->
+      <class name="com.kesav.TestCases.Covid">
+        <methods>
+          <include name="AmazonCovid"/>
+          <include name="LaunchHomePage"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.Covid -->
+      <class name="com.kesav.TestCases.PrimeVideo">
+        <methods>
+          <include name="LaunchLogin"/>
+          <include name="PrimeVideoNewTab"/>
+          <include name="PrimeVideo"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.PrimeVideo -->
+      <class name="com.kesav.TestCases.ProductOrderBook">
+        <methods>
+          <include name="LaunchLogin"/>
+          <include name="ProductBook"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.ProductOrderBook -->
+      <class name="com.kesav.TestCases.GiftCards">
+        <methods>
+          <include name="LaunchLogin"/>
+          <include name="LevisCard"/>
+          <include name="NewTab"/>
+          <include name="GiftCards"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.GiftCards -->
+      <class name="com.kesav.TestCases.PrimeMusic">
+        <methods>
+          <include name="LaunchLogin"/>
+          <include name="PrimeMusic"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.PrimeMusic -->
+      <class name="com.kesav.TestCases.HomePageBabyProducts">
+        <methods>
+          <include name="LaunchHomePage"/>
+          <include name="HomePageBabyProductsNext"/>
+          <include name="Close"/>
+          <include name="HomePageBabyProductsNext2"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.HomePageBabyProducts -->
+      <class name="com.kesav.TestCases.CreateAccountPage">
+        <methods>
+          <include name="LaunchCreateAccountPage"/>
+          <include name="CreateAccount"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.CreateAccountPage -->
+      <class name="com.kesav.TestCases.BeautyHealthGrocery">
+        <methods>
+          <include name="BeautyHealthGrocery"/>
+          <include name="LaunchHomePage"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.BeautyHealthGrocery -->
+      <class name="com.kesav.TestCases.FullStoreDirNoOFLinks">
+        <methods>
+          <include name="LaunchHomePage"/>
+          <include name="SportFitness"/>
+          <include name="KindleEBook"/>
+          <include name="TvAppElecNoOfLinks"/>
+          <include name="EchoAlexaNoOfLinks"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.FullStoreDirNoOFLinks -->
+      <class name="com.kesav.TestCases.HomePageHomeKitchenPet">
+        <methods>
+          <include name="Menu"/>
+          <include name="LaunchHomePage"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.HomePageHomeKitchenPet -->
+      <class name="com.kesav.TestCases.HomePageAmzEcho">
+        <methods>
+          <include name="Close"/>
+          <include name="HomePagePantryNext"/>
+          <include name="LaunchHomePage"/>
+        </methods>
+      </class> <!-- com.kesav.TestCases.HomePageAmzEcho -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

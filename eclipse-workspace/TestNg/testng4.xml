@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  
+<listeners>
+<listener class-name="com.kesav.TestNg.Listeners"/>
+</listeners>
+<test name="Regression">
+    <classes>
+ <class name="com.kesav.TestNg.Demo1"/>
+ <class name="com.kesav.TestNg.Demo2"/>
+ <class name="com.kesav.TestNg.Demo3"/>
+       <class name="com.kesav.TestNg.Demo4"/>   
+  
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="12" failed="14" ignored="0" total="93" passed="67">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1561625" started-at="2020-08-21T12:11:16 IST" finished-at="2020-08-21T12:37:17 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1561625" started-at="2020-08-21T12:11:16 IST" finished-at="2020-08-21T12:37:17 IST">
+      <class name="com.kesav.TestCases.HomePageNoOFLinks">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageNoOFLinks@14d3bc22]" name="LaunchHomePage" duration-ms="15674" started-at="2020-08-21T12:16:13 IST" finished-at="2020-08-21T12:16:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="PASS" signature="NoOfLinks()[pri:0, instance:com.kesav.TestCases.HomePageNoOFLinks@14d3bc22]" name="NoOfLinks" duration-ms="13914" started-at="2020-08-21T12:16:29 IST" depends-on-methods="com.kesav.TestCases.HomePageNoOFLinks.LaunchHomePage" finished-at="2020-08-21T12:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoOfLinks -->
+      </class> <!-- com.kesav.TestCases.HomePageNoOFLinks -->
+      <class name="com.kesav.TestCases.CreateAccountPageExcel">
+        <test-method status="PASS" signature="LaunchCreateAccountPage()[pri:0, instance:com.kesav.TestCases.CreateAccountPageExcel@124c278f]" name="LaunchCreateAccountPage" duration-ms="31262" started-at="2020-08-21T12:11:39 IST" finished-at="2020-08-21T12:12:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchCreateAccountPage -->
+        <test-method status="PASS" signature="Credentials()[pri:0, instance:com.kesav.TestCases.CreateAccountPageExcel@124c278f]" name="Credentials" duration-ms="1261" started-at="2020-08-21T12:12:13 IST" depends-on-methods="com.kesav.TestCases.CreateAccountPageExcel.LaunchCreateAccountPage" finished-at="2020-08-21T12:12:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Credentials -->
+      </class> <!-- com.kesav.TestCases.CreateAccountPageExcel -->
+      <class name="com.kesav.TestCases.ProductOrderBook">
+        <test-method status="PASS" signature="LaunchLogin()[pri:0, instance:com.kesav.TestCases.ProductOrderBook@77167fb7]" name="LaunchLogin" duration-ms="22407" started-at="2020-08-21T12:13:34 IST" finished-at="2020-08-21T12:13:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchLogin -->
+        <test-method status="PASS" signature="ProductBook()[pri:0, instance:com.kesav.TestCases.ProductOrderBook@77167fb7]" name="ProductBook" duration-ms="22375" started-at="2020-08-21T12:14:16 IST" depends-on-methods="com.kesav.TestCases.ProductOrderBook.LaunchLogin" finished-at="2020-08-21T12:14:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductBook -->
+        <test-method status="PASS" signature="ChildTab()[pri:0, instance:com.kesav.TestCases.ProductOrderBook@77167fb7]" name="ChildTab" duration-ms="2173" started-at="2020-08-21T12:14:53 IST" depends-on-methods="com.kesav.TestCases.ProductOrderBook.ProductBook" finished-at="2020-08-21T12:14:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChildTab -->
+        <test-method status="FAIL" signature="addToCart()[pri:0, instance:com.kesav.TestCases.ProductOrderBook@77167fb7]" name="addToCart" duration-ms="12680" started-at="2020-08-21T12:14:55 IST" depends-on-methods="com.kesav.TestCases.ProductOrderBook.ProductBook" finished-at="2020-08-21T12:15:08 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-button"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 013b26cc11ebfad43e92773077b24370
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-button"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-button"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 013b26cc11ebfad43e92773077b24370
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-button"]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.getText(Unknown Source)
+at com.kesav.TestCases.ProductOrderBook.addToCart(ProductOrderBook.java:57)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+      </class> <!-- com.kesav.TestCases.ProductOrderBook -->
+      <class name="com.kesav.TestCases.BeautyHealthGrocery">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.BeautyHealthGrocery@27ae2fd0]" name="LaunchHomePage" duration-ms="16172" started-at="2020-08-21T12:26:09 IST" finished-at="2020-08-21T12:26:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="FAIL" signature="BeautyHealthGrocery()[pri:0, instance:com.kesav.TestCases.BeautyHealthGrocery@27ae2fd0]" name="BeautyHealthGrocery" duration-ms="15382" started-at="2020-08-21T12:26:25 IST" depends-on-methods="com.kesav.TestCases.BeautyHealthGrocery.LaunchHomePage" finished-at="2020-08-21T12:26:40 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="a-page"]/div[4]/div/div[2]/div/div[1]/div[1]/ul[2]/li[2]/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b6f2b579cc15437d2cb121741293529b
+*** Element info: {Using=xpath, value=//*[@id="a-page"]/div[4]/div/div[2]/div/div[1]/div[1]/ul[2]/li[2]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="a-page"]/div[4]/div/div[2]/div/div[1]/div[1]/ul[2]/li[2]/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b6f2b579cc15437d2cb121741293529b
+*** Element info: {Using=xpath, value=//*[@id="a-page"]/div[4]/div/div[2]/div/div[1]/div[1]/ul[2]/li[2]/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.BeautyHealthGrocery.BeautyHealthGrocery(BeautyHealthGrocery.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeautyHealthGrocery -->
+      </class> <!-- com.kesav.TestCases.BeautyHealthGrocery -->
+      <class name="com.kesav.TestCases.MoviesMusicVideoGames">
+        <test-method status="PASS" signature="LaunchLogin()[pri:0, instance:com.kesav.TestCases.MoviesMusicVideoGames@4278a03f]" name="LaunchLogin" duration-ms="75710" started-at="2020-08-21T12:32:15 IST" finished-at="2020-08-21T12:33:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchLogin -->
+        <test-method status="FAIL" signature="AmazonMovieMusicVideoGames()[pri:0, instance:com.kesav.TestCases.MoviesMusicVideoGames@4278a03f]" name="AmazonMovieMusicVideoGames" duration-ms="88300" started-at="2020-08-21T12:33:31 IST" depends-on-methods="com.kesav.TestCases.MoviesMusicVideoGames.LaunchLogin" finished-at="2020-08-21T12:34:59 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="quantity"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d73019d9c3ae07087169e755788ddad4
+*** Element info: {Using=xpath, value=//*[@id="quantity"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="quantity"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d73019d9c3ae07087169e755788ddad4
+*** Element info: {Using=xpath, value=//*[@id="quantity"]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
+at com.kesav.TestCases.MoviesMusicVideoGames.AmazonMovieMusicVideoGames(MoviesMusicVideoGames.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonMovieMusicVideoGames -->
+      </class> <!-- com.kesav.TestCases.MoviesMusicVideoGames -->
+      <class name="com.kesav.TestCases.PrimeMusic">
+        <test-method status="PASS" signature="LaunchLogin()[pri:0, instance:com.kesav.TestCases.PrimeMusic@7219ec67]" name="LaunchLogin" duration-ms="22069" started-at="2020-08-21T12:19:13 IST" finished-at="2020-08-21T12:19:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchLogin -->
+        <test-method status="FAIL" signature="PrimeMusic()[pri:0, instance:com.kesav.TestCases.PrimeMusic@7219ec67]" name="PrimeMusic" duration-ms="50228" started-at="2020-08-21T12:19:35 IST" depends-on-methods="com.kesav.TestCases.PrimeMusic.LaunchLogin" finished-at="2020-08-21T12:20:25 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 45790b908d707a40c2a34cc748366590
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 45790b908d707a40c2a34cc748366590
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.PrimeMusic.PrimeMusic(PrimeMusic.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrimeMusic -->
+      </class> <!-- com.kesav.TestCases.PrimeMusic -->
+      <class name="com.kesav.TestCases.FullStoreDirNoOFLinks">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8]" name="LaunchHomePage" duration-ms="19346" started-at="2020-08-21T12:13:57 IST" finished-at="2020-08-21T12:14:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="FAIL" signature="EchoAlexaNoOfLinks()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8]" name="EchoAlexaNoOfLinks" duration-ms="14566" started-at="2020-08-21T12:14:38 IST" depends-on-methods="com.kesav.TestCases.FullStoreDirNoOFLinks.LaunchHomePage" finished-at="2020-08-21T12:14:53 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hmenu-content"]/ul[1]/li[22]/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4fc7d86e67aab26d8fd0ca81c36f2001
+*** Element info: {Using=xpath, value=//*[@id="hmenu-content"]/ul[1]/li[22]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hmenu-content"]/ul[1]/li[22]/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4fc7d86e67aab26d8fd0ca81c36f2001
+*** Element info: {Using=xpath, value=//*[@id="hmenu-content"]/ul[1]/li[22]/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.FullStoreDirNoOFLinks.EchoAlexaNoOfLinks(FullStoreDirNoOFLinks.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EchoAlexaNoOfLinks -->
+        <test-method status="SKIP" signature="TvAppElecNoOfLinks()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8]" name="TvAppElecNoOfLinks" duration-ms="1" started-at="2020-08-21T12:15:08 IST" depends-on-methods="com.kesav.TestCases.FullStoreDirNoOFLinks.EchoAlexaNoOfLinks" finished-at="2020-08-21T12:15:08 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FullStoreDirNoOFLinks.TvAppElecNoOfLinks()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FullStoreDirNoOFLinks.TvAppElecNoOfLinks()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TvAppElecNoOfLinks -->
+        <test-method status="SKIP" signature="SportFitness()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8]" name="SportFitness" duration-ms="0" started-at="2020-08-21T12:15:08 IST" depends-on-methods="com.kesav.TestCases.FullStoreDirNoOFLinks.TvAppElecNoOfLinks" finished-at="2020-08-21T12:15:08 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FullStoreDirNoOFLinks.SportFitness()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FullStoreDirNoOFLinks.SportFitness()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SportFitness -->
+        <test-method status="SKIP" signature="KindleEBook()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8]" name="KindleEBook" duration-ms="0" started-at="2020-08-21T12:15:08 IST" depends-on-methods="com.kesav.TestCases.FullStoreDirNoOFLinks.SportFitness" finished-at="2020-08-21T12:15:08 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FullStoreDirNoOFLinks.KindleEBook()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FullStoreDirNoOFLinks.KindleEBook()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KindleEBook -->
+      </class> <!-- com.kesav.TestCases.FullStoreDirNoOFLinks -->
+      <class name="com.kesav.TestCases.HomePageAmzEcho">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageAmzEcho@12d4bf7e]" name="LaunchHomePage" duration-ms="21859" started-at="2020-08-21T12:16:43 IST" finished-at="2020-08-21T12:17:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="FAIL" signature="HomePagePantryNext()[pri:0, instance:com.kesav.TestCases.HomePageAmzEcho@12d4bf7e]" name="HomePagePantryNext" duration-ms="6128" started-at="2020-08-21T12:17:05 IST" depends-on-methods="com.kesav.TestCases.HomePageAmzEcho.LaunchHomePage" finished-at="2020-08-21T12:17:11 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="MlHBk5Gkfht_8J9H_2pxtg"]/div[2]/div[2]/div[2]/a/div[1]/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fe695536a724921fa3caab69bfbe6791
+*** Element info: {Using=xpath, value=//*[@id="MlHBk5Gkfht_8J9H_2pxtg"]/div[2]/div[2]/div[2]/a/div[1]/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="MlHBk5Gkfht_8J9H_2pxtg"]/div[2]/div[2]/div[2]/a/div[1]/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fe695536a724921fa3caab69bfbe6791
+*** Element info: {Using=xpath, value=//*[@id="MlHBk5Gkfht_8J9H_2pxtg"]/div[2]/div[2]/div[2]/a/div[1]/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.HomePageAmzEcho.HomePagePantryNext(HomePageAmzEcho.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagePantryNext -->
+        <test-method status="SKIP" signature="Close()[pri:0, instance:com.kesav.TestCases.HomePageAmzEcho@12d4bf7e]" name="Close" duration-ms="0" started-at="2020-08-21T12:17:11 IST" depends-on-methods="com.kesav.TestCases.HomePageAmzEcho.HomePagePantryNext" finished-at="2020-08-21T12:17:11 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method HomePageAmzEcho.Close()[pri:0, instance:com.kesav.TestCases.HomePageAmzEcho@12d4bf7e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method HomePageAmzEcho.Close()[pri:0, instance:com.kesav.TestCases.HomePageAmzEcho@12d4bf7e] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.HomePageAmzEcho -->
+      <class name="com.kesav.TestCases.CreateAccountPage">
+        <test-method status="FAIL" signature="LaunchCreateAccountPage()[pri:0, instance:com.kesav.TestCases.CreateAccountPage@79efed2d]" name="LaunchCreateAccountPage" duration-ms="17452" started-at="2020-08-21T12:25:16 IST" finished-at="2020-08-21T12:25:34 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="createAccountSubmit"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2dee4ae1cd8550f37d1505e6ca3b1e30
+*** Element info: {Using=xpath, value=//*[@id="createAccountSubmit"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="createAccountSubmit"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2dee4ae1cd8550f37d1505e6ca3b1e30
+*** Element info: {Using=xpath, value=//*[@id="createAccountSubmit"]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.CreateAccountPage.LaunchCreateAccountPage(CreateAccountPage.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchCreateAccountPage -->
+        <test-method status="SKIP" signature="CreateAccount()[pri:0, instance:com.kesav.TestCases.CreateAccountPage@79efed2d]" name="CreateAccount" duration-ms="0" started-at="2020-08-21T12:25:34 IST" depends-on-methods="com.kesav.TestCases.CreateAccountPage.LaunchCreateAccountPage" finished-at="2020-08-21T12:25:34 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreateAccountPage.CreateAccount()[pri:0, instance:com.kesav.TestCases.CreateAccountPage@79efed2d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreateAccountPage.CreateAccount()[pri:0, instance:com.kesav.TestCases.CreateAccountPage@79efed2d] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+      </class> <!-- com.kesav.TestCases.CreateAccountPage -->
+      <class name="com.kesav.TestCases.HomePageComputer">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageComputer@4c1d9d4b]" name="LaunchHomePage" duration-ms="17354" started-at="2020-08-21T12:17:11 IST" finished-at="2020-08-21T12:17:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="PASS" signature="HomePageComputerNext()[pri:0, instance:com.kesav.TestCases.HomePageComputer@4c1d9d4b]" name="HomePageComputerNext" duration-ms="42313" started-at="2020-08-21T12:17:28 IST" depends-on-methods="com.kesav.TestCases.HomePageComputer.LaunchHomePage" finished-at="2020-08-21T12:18:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageComputerNext -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.kesav.TestCases.HomePageComputer@4c1d9d4b]" name="Close" duration-ms="6039" started-at="2020-08-21T12:18:11 IST" depends-on-methods="com.kesav.TestCases.HomePageComputer.HomePageComputerNext" finished-at="2020-08-21T12:18:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.HomePageComputer -->
+      <class name="com.kesav.TestCases.GiftCards">
+        <test-method status="PASS" signature="LaunchLogin()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025]" name="LaunchLogin" duration-ms="28115" started-at="2020-08-21T12:35:51 IST" finished-at="2020-08-21T12:36:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchLogin -->
+        <test-method status="FAIL" signature="GiftCards()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025]" name="GiftCards" duration-ms="57675" started-at="2020-08-21T12:36:19 IST" depends-on-methods="com.kesav.TestCases.GiftCards.LaunchLogin" finished-at="2020-08-21T12:37:16 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/span/a/div/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5fe24ae630252b1633ee734877c45ff0
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/span/a/div/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/span/a/div/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5fe24ae630252b1633ee734877c45ff0
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/span/a/div/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.GiftCards.GiftCards(GiftCards.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCards -->
+        <test-method status="SKIP" signature="NewTab()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025]" name="NewTab" duration-ms="1" started-at="2020-08-21T12:37:17 IST" depends-on-methods="com.kesav.TestCases.GiftCards.GiftCards" finished-at="2020-08-21T12:37:17 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GiftCards.NewTab()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GiftCards.NewTab()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewTab -->
+        <test-method status="SKIP" signature="LevisCard()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025]" name="LevisCard" duration-ms="1" started-at="2020-08-21T12:37:17 IST" depends-on-methods="com.kesav.TestCases.GiftCards.NewTab" finished-at="2020-08-21T12:37:17 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GiftCards.LevisCard()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GiftCards.LevisCard()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LevisCard -->
+      </class> <!-- com.kesav.TestCases.GiftCards -->
+      <class name="com.kesav.TestCases.HomePageShoppingDay">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageShoppingDay@7b227d8d]" name="LaunchHomePage" duration-ms="41017" started-at="2020-08-21T12:18:17 IST" finished-at="2020-08-21T12:18:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="FAIL" signature="ShoppingDay()[pri:0, instance:com.kesav.TestCases.HomePageShoppingDay@7b227d8d]" name="ShoppingDay" duration-ms="15311" started-at="2020-08-21T12:18:58 IST" depends-on-methods="com.kesav.TestCases.HomePageShoppingDay.LaunchHomePage" finished-at="2020-08-21T12:19:13 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mgt-email-sms-input"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bbb03d91c3c6dc5f9073fc1e4efc7396
+*** Element info: {Using=xpath, value=//*[@id="mgt-email-sms-input"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mgt-email-sms-input"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bbb03d91c3c6dc5f9073fc1e4efc7396
+*** Element info: {Using=xpath, value=//*[@id="mgt-email-sms-input"]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
+at com.kesav.TestCases.HomePageShoppingDay.ShoppingDay(HomePageShoppingDay.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingDay -->
+        <test-method status="SKIP" signature="Close()[pri:0, instance:com.kesav.TestCases.HomePageShoppingDay@7b227d8d]" name="Close" duration-ms="0" started-at="2020-08-21T12:19:13 IST" depends-on-methods="com.kesav.TestCases.HomePageShoppingDay.ShoppingDay" finished-at="2020-08-21T12:19:13 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method HomePageShoppingDay.Close()[pri:0, instance:com.kesav.TestCases.HomePageShoppingDay@7b227d8d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method HomePageShoppingDay.Close()[pri:0, instance:com.kesav.TestCases.HomePageShoppingDay@7b227d8d] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.HomePageShoppingDay -->
+      <class name="com.kesav.TestCases.FullStore">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.FullStore@30b7c004]" name="LaunchHomePage" duration-ms="16090" started-at="2020-08-21T12:24:21 IST" finished-at="2020-08-21T12:24:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="FAIL" signature="AmazonFullStoreDir()[pri:0, instance:com.kesav.TestCases.FullStore@30b7c004]" name="AmazonFullStoreDir" duration-ms="38634" started-at="2020-08-21T12:24:38 IST" depends-on-methods="com.kesav.TestCases.FullStore.LaunchHomePage" finished-at="2020-08-21T12:25:16 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-button"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 275ff12238fae1d1682571fdcf2ba06c
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-button"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-button"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 275ff12238fae1d1682571fdcf2ba06c
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-button"]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.FullStore.AmazonFullStoreDir(FullStore.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonFullStoreDir -->
+        <test-method status="SKIP" signature="Close()[pri:0, instance:com.kesav.TestCases.FullStore@30b7c004]" name="Close" duration-ms="0" started-at="2020-08-21T12:25:16 IST" depends-on-methods="com.kesav.TestCases.FullStore.AmazonFullStoreDir" finished-at="2020-08-21T12:25:16 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FullStore.Close()[pri:0, instance:com.kesav.TestCases.FullStore@30b7c004] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FullStore.Close()[pri:0, instance:com.kesav.TestCases.FullStore@30b7c004] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.FullStore -->
+      <class name="com.kesav.TestCases.HomePageMenu">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageMenu@65d6b83b]" name="LaunchHomePage" duration-ms="15378" started-at="2020-08-21T12:21:17 IST" finished-at="2020-08-21T12:21:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="PASS" signature="Menu()[pri:0, instance:com.kesav.TestCases.HomePageMenu@65d6b83b]" name="Menu" duration-ms="29231" started-at="2020-08-21T12:21:33 IST" depends-on-methods="com.kesav.TestCases.HomePageMenu.LaunchHomePage" finished-at="2020-08-21T12:22:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu -->
+        <test-method status="PASS" signature="EchoDot()[pri:0, instance:com.kesav.TestCases.HomePageMenu@65d6b83b]" name="EchoDot" duration-ms="12409" started-at="2020-08-21T12:22:02 IST" depends-on-methods="com.kesav.TestCases.HomePageMenu.Menu" finished-at="2020-08-21T12:22:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EchoDot -->
+        <test-method status="PASS" signature="AllNewAmzEcho()[pri:0, instance:com.kesav.TestCases.HomePageMenu@65d6b83b]" name="AllNewAmzEcho" duration-ms="19054" started-at="2020-08-21T12:22:14 IST" depends-on-methods="com.kesav.TestCases.HomePageMenu.EchoDot" finished-at="2020-08-21T12:22:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllNewAmzEcho -->
+        <test-method status="PASS" signature="echoShow5()[pri:0, instance:com.kesav.TestCases.HomePageMenu@65d6b83b]" name="echoShow5" duration-ms="23464" started-at="2020-08-21T12:22:34 IST" depends-on-methods="com.kesav.TestCases.HomePageMenu.EchoDot" finished-at="2020-08-21T12:22:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- echoShow5 -->
+        <test-method status="PASS" signature="MeetAlexa()[pri:0, instance:com.kesav.TestCases.HomePageMenu@65d6b83b]" name="MeetAlexa" duration-ms="11784" started-at="2020-08-21T12:22:57 IST" depends-on-methods="com.kesav.TestCases.HomePageMenu.echoShow5" finished-at="2020-08-21T12:23:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MeetAlexa -->
+        <test-method status="PASS" signature="AlexaSmartHome()[pri:0, instance:com.kesav.TestCases.HomePageMenu@65d6b83b]" name="AlexaSmartHome" duration-ms="14473" started-at="2020-08-21T12:23:09 IST" depends-on-methods="com.kesav.TestCases.HomePageMenu.MeetAlexa" finished-at="2020-08-21T12:23:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlexaSmartHome -->
+        <test-method status="PASS" signature="AlexaPrimeMusic()[pri:0, instance:com.kesav.TestCases.HomePageMenu@65d6b83b]" name="AlexaPrimeMusic" duration-ms="15071" started-at="2020-08-21T12:23:23 IST" depends-on-methods="com.kesav.TestCases.HomePageMenu.AlexaSmartHome" finished-at="2020-08-21T12:23:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlexaPrimeMusic -->
+      </class> <!-- com.kesav.TestCases.HomePageMenu -->
+      <class name="com.kesav.TestCases.Covid">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.Covid@45018215]" name="LaunchHomePage" duration-ms="15580" started-at="2020-08-21T12:20:25 IST" finished-at="2020-08-21T12:20:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="FAIL" signature="AmazonCovid()[pri:0, instance:com.kesav.TestCases.Covid@45018215]" name="AmazonCovid" duration-ms="36510" started-at="2020-08-21T12:20:41 IST" depends-on-methods="com.kesav.TestCases.Covid.LaunchHomePage" finished-at="2020-08-21T12:21:17 IST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable: element has zero size
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 200fa95595b848c595a276241af13840]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 200fa95595b848c595a276241af13840
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.Covid.AmazonCovid(Covid.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonCovid -->
+        <test-method status="SKIP" signature="Close()[pri:0, instance:com.kesav.TestCases.Covid@45018215]" name="Close" duration-ms="0" started-at="2020-08-21T12:21:17 IST" depends-on-methods="com.kesav.TestCases.Covid.AmazonCovid" finished-at="2020-08-21T12:21:17 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Covid.Close()[pri:0, instance:com.kesav.TestCases.Covid@45018215] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Covid.Close()[pri:0, instance:com.kesav.TestCases.Covid@45018215] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.Covid -->
+      <class name="com.kesav.TestCases.HomePageHomeGetToKnow">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="LaunchHomePage" duration-ms="20779" started-at="2020-08-21T12:26:40 IST" finished-at="2020-08-21T12:27:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="PASS" signature="AboutUs()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="AboutUs" duration-ms="20108" started-at="2020-08-21T12:27:01 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.LaunchHomePage" finished-at="2020-08-21T12:27:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUs -->
+        <test-method status="PASS" signature="Career()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="Career" duration-ms="11963" started-at="2020-08-21T12:27:21 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.AboutUs" finished-at="2020-08-21T12:27:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Career -->
+        <test-method status="PASS" signature="PressRelease()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="PressRelease" duration-ms="7795" started-at="2020-08-21T12:27:33 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.Career" finished-at="2020-08-21T12:27:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PressRelease -->
+        <test-method status="PASS" signature="AmazonCares()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="AmazonCares" duration-ms="12290" started-at="2020-08-21T12:27:41 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.PressRelease" finished-at="2020-08-21T12:27:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonCares -->
+        <test-method status="PASS" signature="GiftASmile()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="GiftASmile" duration-ms="13960" started-at="2020-08-21T12:27:53 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.AmazonCares" finished-at="2020-08-21T12:28:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftASmile -->
+        <test-method status="PASS" signature="Twitter()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="Twitter" duration-ms="22018" started-at="2020-08-21T12:28:07 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.GiftASmile" finished-at="2020-08-21T12:28:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Twitter -->
+        <test-method status="PASS" signature="Facebook()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="Facebook" duration-ms="14119" started-at="2020-08-21T12:28:29 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.Twitter" finished-at="2020-08-21T12:28:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebook -->
+        <test-method status="PASS" signature="Instagram()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="Instagram" duration-ms="13164" started-at="2020-08-21T12:28:43 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.Facebook" finished-at="2020-08-21T12:28:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Instagram -->
+        <test-method status="PASS" signature="SellOnAmzon()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="SellOnAmzon" duration-ms="9735" started-at="2020-08-21T12:28:57 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.Instagram" finished-at="2020-08-21T12:29:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SellOnAmzon -->
+        <test-method status="PASS" signature="SellunderAmazon()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="SellunderAmazon" duration-ms="8269" started-at="2020-08-21T12:29:06 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.SellOnAmzon" finished-at="2020-08-21T12:29:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SellunderAmazon -->
+        <test-method status="PASS" signature="BecomeAnAffi()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="BecomeAnAffi" duration-ms="14031" started-at="2020-08-21T12:29:15 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.SellunderAmazon" finished-at="2020-08-21T12:29:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BecomeAnAffi -->
+        <test-method status="PASS" signature="FulfilmentByAmazon()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="FulfilmentByAmazon" duration-ms="7116" started-at="2020-08-21T12:29:29 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.BecomeAnAffi" finished-at="2020-08-21T12:29:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FulfilmentByAmazon -->
+        <test-method status="PASS" signature="AdvertiseYourPrduct()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="AdvertiseYourPrduct" duration-ms="11564" started-at="2020-08-21T12:29:36 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.FulfilmentByAmazon" finished-at="2020-08-21T12:29:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvertiseYourPrduct -->
+        <test-method status="PASS" signature="AmzPayOn()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="AmzPayOn" duration-ms="5266" started-at="2020-08-21T12:29:47 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.AdvertiseYourPrduct" finished-at="2020-08-21T12:29:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmzPayOn -->
+        <test-method status="PASS" signature="covidAmzon()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="covidAmzon" duration-ms="7350" started-at="2020-08-21T12:29:53 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.AmzPayOn" finished-at="2020-08-21T12:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- covidAmzon -->
+        <test-method status="PASS" signature="yourAcc()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="yourAcc" duration-ms="9027" started-at="2020-08-21T12:30:00 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.covidAmzon" finished-at="2020-08-21T12:30:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourAcc -->
+        <test-method status="PASS" signature="returnsCentre()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="returnsCentre" duration-ms="13699" started-at="2020-08-21T12:30:09 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.yourAcc" finished-at="2020-08-21T12:30:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnsCentre -->
+        <test-method status="PASS" signature="purchaseProtection()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="purchaseProtection" duration-ms="7460" started-at="2020-08-21T12:30:23 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.returnsCentre" finished-at="2020-08-21T12:30:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProtection -->
+        <test-method status="PASS" signature="amzAppDownload()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="amzAppDownload" duration-ms="5954" started-at="2020-08-21T12:30:30 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.purchaseProtection" finished-at="2020-08-21T12:30:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amzAppDownload -->
+        <test-method status="PASS" signature="amzAssDownload()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="amzAssDownload" duration-ms="6538" started-at="2020-08-21T12:30:36 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.amzAppDownload" finished-at="2020-08-21T12:30:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amzAssDownload -->
+        <test-method status="PASS" signature="Help()[pri:0, instance:com.kesav.TestCases.HomePageHomeGetToKnow@29176cc1]" name="Help" duration-ms="8254" started-at="2020-08-21T12:30:43 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeGetToKnow.amzAssDownload" finished-at="2020-08-21T12:30:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Help -->
+      </class> <!-- com.kesav.TestCases.HomePageHomeGetToKnow -->
+      <class name="com.kesav.TestCases.CreateAccountPageDataProviderExcel">
+        <test-method status="PASS" signature="LaunchCreateAccountPage()[pri:0, instance:com.kesav.TestCases.CreateAccountPageDataProviderExcel@3d121db3]" name="LaunchCreateAccountPage" duration-ms="22923" started-at="2020-08-21T12:11:16 IST" finished-at="2020-08-21T12:11:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchCreateAccountPage -->
+        <test-method status="PASS" signature="Credentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kesav.TestCases.CreateAccountPageDataProviderExcel@3d121db3]" name="Credentials" duration-ms="1018" started-at="2020-08-21T12:12:12 IST" data-provider="getData" depends-on-methods="com.kesav.TestCases.CreateAccountPageDataProviderExcel.LaunchCreateAccountPage" finished-at="2020-08-21T12:12:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hajsahdjhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.736486873E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[agshdg@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gdgags525365]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Credentials -->
+      </class> <!-- com.kesav.TestCases.CreateAccountPageDataProviderExcel -->
+      <class name="com.kesav.TestCases.HomePageBabyProducts">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f]" name="LaunchHomePage" duration-ms="20376" started-at="2020-08-21T12:35:00 IST" finished-at="2020-08-21T12:35:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="FAIL" signature="HomePageBabyProductsNext()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f]" name="HomePageBabyProductsNext" duration-ms="30469" started-at="2020-08-21T12:35:20 IST" depends-on-methods="com.kesav.TestCases.HomePageBabyProducts.LaunchHomePage" finished-at="2020-08-21T12:35:51 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftNav"]/ul[9]/div/li[1]/span/a/i"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2e9b7624bc38f45b1038823ff69065d8
+*** Element info: {Using=xpath, value=//*[@id="leftNav"]/ul[9]/div/li[1]/span/a/i}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftNav"]/ul[9]/div/li[1]/span/a/i"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2e9b7624bc38f45b1038823ff69065d8
+*** Element info: {Using=xpath, value=//*[@id="leftNav"]/ul[9]/div/li[1]/span/a/i}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.HomePageBabyProducts.HomePageBabyProductsNext(HomePageBabyProducts.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageBabyProductsNext -->
+        <test-method status="SKIP" signature="HomePageBabyProductsNext2()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f]" name="HomePageBabyProductsNext2" duration-ms="0" started-at="2020-08-21T12:35:51 IST" depends-on-methods="com.kesav.TestCases.HomePageBabyProducts.HomePageBabyProductsNext" finished-at="2020-08-21T12:35:51 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method HomePageBabyProducts.HomePageBabyProductsNext2()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method HomePageBabyProducts.HomePageBabyProductsNext2()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageBabyProductsNext2 -->
+        <test-method status="SKIP" signature="Close()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f]" name="Close" duration-ms="0" started-at="2020-08-21T12:35:51 IST" depends-on-methods="com.kesav.TestCases.HomePageBabyProducts.HomePageBabyProductsNext2" finished-at="2020-08-21T12:35:51 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method HomePageBabyProducts.Close()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method HomePageBabyProducts.Close()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.HomePageBabyProducts -->
+      <class name="com.kesav.TestCases.HomePageSelectAddress">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageSelectAddress@2928854b]" name="LaunchHomePage" duration-ms="17073" started-at="2020-08-21T12:25:34 IST" finished-at="2020-08-21T12:25:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="PASS" signature="ShoppingDay()[pri:0, instance:com.kesav.TestCases.HomePageSelectAddress@2928854b]" name="ShoppingDay" duration-ms="13034" started-at="2020-08-21T12:25:51 IST" depends-on-methods="com.kesav.TestCases.HomePageSelectAddress.LaunchHomePage" finished-at="2020-08-21T12:26:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingDay -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.kesav.TestCases.HomePageSelectAddress@2928854b]" name="Close" duration-ms="4624" started-at="2020-08-21T12:26:04 IST" depends-on-methods="com.kesav.TestCases.HomePageSelectAddress.ShoppingDay" finished-at="2020-08-21T12:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.HomePageSelectAddress -->
+      <class name="com.kesav.TestCases.MobileComputer">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.MobileComputer@3b07a0d6]" name="LaunchHomePage" duration-ms="11716" started-at="2020-08-21T12:12:15 IST" finished-at="2020-08-21T12:12:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="PASS" signature="AmazonFullStoreDir()[pri:0, instance:com.kesav.TestCases.MobileComputer@3b07a0d6]" name="AmazonFullStoreDir" duration-ms="35460" started-at="2020-08-21T12:12:43 IST" depends-on-methods="com.kesav.TestCases.MobileComputer.LaunchHomePage" finished-at="2020-08-21T12:13:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonFullStoreDir -->
+        <test-method status="PASS" signature="ScreenShot()[pri:0, instance:com.kesav.TestCases.MobileComputer@3b07a0d6]" name="ScreenShot" duration-ms="1441" started-at="2020-08-21T12:13:33 IST" depends-on-methods="com.kesav.TestCases.MobileComputer.AmazonFullStoreDir" finished-at="2020-08-21T12:13:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShot -->
+      </class> <!-- com.kesav.TestCases.MobileComputer -->
+      <class name="com.kesav.TestCases.PrimeVideo">
+        <test-method status="PASS" signature="LaunchLogin()[pri:0, instance:com.kesav.TestCases.PrimeVideo@2f177a4b]" name="LaunchLogin" duration-ms="28549" started-at="2020-08-21T12:30:51 IST" finished-at="2020-08-21T12:31:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchLogin -->
+        <test-method status="PASS" signature="PrimeVideo()[pri:0, instance:com.kesav.TestCases.PrimeVideo@2f177a4b]" name="PrimeVideo" duration-ms="8132" started-at="2020-08-21T12:31:19 IST" depends-on-methods="com.kesav.TestCases.PrimeVideo.LaunchLogin" finished-at="2020-08-21T12:31:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrimeVideo -->
+        <test-method status="PASS" signature="NewTab()[pri:0, instance:com.kesav.TestCases.PrimeVideo@2f177a4b]" name="NewTab" duration-ms="592" started-at="2020-08-21T12:31:28 IST" depends-on-methods="com.kesav.TestCases.PrimeVideo.PrimeVideo" finished-at="2020-08-21T12:31:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewTab -->
+        <test-method status="FAIL" signature="PrimeVideoNewTab()[pri:0, instance:com.kesav.TestCases.PrimeVideo@2f177a4b]" name="PrimeVideoNewTab" duration-ms="46718" started-at="2020-08-21T12:31:28 IST" depends-on-methods="com.kesav.TestCases.PrimeVideo.PrimeVideo" finished-at="2020-08-21T12:32:15 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img class="fuorrko" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjciIHZpZXdCb3g9IjAgMCAyNyAyNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JvdXAgNTwvdGl0bGU+PGcgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTMuNSAyNEMxOS4yOTkgMjQgMjQgMTkuMjk5IDI0IDEzLjVTMTkuMjk5IDMgMTMuNSAzIDMgNy43MDEgMyAxMy41IDcuNzAxIDI0IDEzLjUgMjR6bTAtM2E3LjUgNy41IDAgMSAwIDAtMTUgNy41IDcuNSAwIDAgMCAwIDE1eiIvPjxwYXRoIGQ9Ik0xMS44OCAwaDMuMjRsMS4wOCA0LjMyaC01LjR6TTI3IDExLjg4djMuMjRsLTQuMzIgMS4wOHYtNS40ek0wIDExLjg4djMuMjRsNC4zMiAxLjA4di01LjR6TTUuNTEyIDIuNzM0TDMuMjYgNS4wNjRsMi4zNTcgMy43NzlMOS4zNyA0Ljk1OHpNMjEuNDg4IDIuNzM0bDIuMjUxIDIuMzMtMi4zNTcgMy43NzktMy43NTEtMy44ODV6TTUuNTEyIDI0LjI2NmwtMi4yNTEtMi4zMyAyLjM1Ny0zLjc3OSAzLjc1MSAzLjg4NXpNMjEuNDg4IDI0LjI2NmwyLjI1MS0yLjMzLTIuMzU3LTMuNzc5LTMuNzUxIDMuODg1ek0xMS44OCAyN2gzLjI0bDEuMDgtNC4zMmgtNS40eiIvPjwvZz48L3N2Zz4=" alt=""> is not clickable at point (1143, 47). Other element would receive the click: <div class="f1upyuoq f1uwz81n">...</div>
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e7382a3c66ee8cb789309a52c6fbd2ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class="fuorrko" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjciIHZpZXdCb3g9IjAgMCAyNyAyNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JvdXAgNTwvdGl0bGU+PGcgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTMuNSAyNEMxOS4yOTkgMjQgMjQgMTkuMjk5IDI0IDEzLjVTMTkuMjk5IDMgMTMuNSAzIDMgNy43MDEgMyAxMy41IDcuNzAxIDI0IDEzLjUgMjR6bTAtM2E3LjUgNy41IDAgMSAwIDAtMTUgNy41IDcuNSAwIDAgMCAwIDE1eiIvPjxwYXRoIGQ9Ik0xMS44OCAwaDMuMjRsMS4wOCA0LjMyaC01LjR6TTI3IDExLjg4djMuMjRsLTQuMzIgMS4wOHYtNS40ek0wIDExLjg4djMuMjRsNC4zMiAxLjA4di01LjR6TTUuNTEyIDIuNzM0TDMuMjYgNS4wNjRsMi4zNTcgMy43NzlMOS4zNyA0Ljk1OHpNMjEuNDg4IDIuNzM0bDIuMjUxIDIuMzMtMi4zNTcgMy43NzktMy43NTEtMy44ODV6TTUuNTEyIDI0LjI2NmwtMi4yNTEtMi4zMyAyLjM1Ny0zLjc3OSAzLjc1MSAzLjg4NXpNMjEuNDg4IDI0LjI2NmwyLjI1MS0yLjMzLTIuMzU3LTMuNzc5LTMuNzUxIDMuODg1ek0xMS44OCAyN2gzLjI0bDEuMDgtNC4zMmgtNS40eiIvPjwvZz48L3N2Zz4=" alt=""> is not clickable at point (1143, 47). Other element would receive the click: <div class="f1upyuoq f1uwz81n">...</div>
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e7382a3c66ee8cb789309a52c6fbd2ed
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.PrimeVideo.PrimeVideoNewTab(PrimeVideo.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrimeVideoNewTab -->
+      </class> <!-- com.kesav.TestCases.PrimeVideo -->
+      <class name="com.kesav.TestCases.AudibleAudioBook">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.AudibleAudioBook@15b204a1]" name="LaunchHomePage" duration-ms="16929" started-at="2020-08-21T12:12:26 IST" finished-at="2020-08-21T12:12:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="PASS" signature="AudibleAudioBook()[pri:0, instance:com.kesav.TestCases.AudibleAudioBook@15b204a1]" name="AudibleAudioBook" duration-ms="13907" started-at="2020-08-21T12:13:19 IST" depends-on-methods="com.kesav.TestCases.AudibleAudioBook.LaunchHomePage" finished-at="2020-08-21T12:13:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AudibleAudioBook -->
+      </class> <!-- com.kesav.TestCases.AudibleAudioBook -->
+      <class name="com.kesav.TestCases.HomePageHomeKitchenPet">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePageHomeKitchenPet@3901d134]" name="LaunchHomePage" duration-ms="20168" started-at="2020-08-21T12:15:08 IST" finished-at="2020-08-21T12:15:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="FAIL" signature="Menu()[pri:0, instance:com.kesav.TestCases.HomePageHomeKitchenPet@3901d134]" name="Menu" duration-ms="45359" started-at="2020-08-21T12:15:28 IST" depends-on-methods="com.kesav.TestCases.HomePageHomeKitchenPet.LaunchHomePage" finished-at="2020-08-21T12:16:13 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea13cf9a8d78dfa71da0bc7874d11012
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea13cf9a8d78dfa71da0bc7874d11012
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.kesav.TestCases.HomePageHomeKitchenPet.Menu(HomePageHomeKitchenPet.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu -->
+      </class> <!-- com.kesav.TestCases.HomePageHomeKitchenPet -->
+      <class name="com.kesav.TestCases.HomePagePantry">
+        <test-method status="PASS" signature="LaunchHomePage()[pri:0, instance:com.kesav.TestCases.HomePagePantry@d706f19]" name="LaunchHomePage" duration-ms="17342" started-at="2020-08-21T12:23:38 IST" finished-at="2020-08-21T12:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchHomePage -->
+        <test-method status="PASS" signature="HomePagePantryNext()[pri:0, instance:com.kesav.TestCases.HomePagePantry@d706f19]" name="HomePagePantryNext" duration-ms="21016" started-at="2020-08-21T12:23:56 IST" depends-on-methods="com.kesav.TestCases.HomePagePantry.LaunchHomePage" finished-at="2020-08-21T12:24:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagePantryNext -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.kesav.TestCases.HomePagePantry@d706f19]" name="Close" duration-ms="4580" started-at="2020-08-21T12:24:17 IST" depends-on-methods="com.kesav.TestCases.HomePagePantry.HomePagePantryNext" finished-at="2020-08-21T12:24:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.HomePagePantry -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,10 @@
+14:38:31.424 [main] INFO  com.kesav.Utility.BaseTest - -------------------ShirtOrder---------------------------------
+14:38:35.936 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:38:35.944 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:38:39.953 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:38:47.949 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+14:38:56.241 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:38:56.353 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+14:38:56.459 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+14:38:56.557 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+14:39:01.642 [main] ERROR com.kesav.Constants.MensTShirt - eyeboglerRoudnNeck Not Clicked

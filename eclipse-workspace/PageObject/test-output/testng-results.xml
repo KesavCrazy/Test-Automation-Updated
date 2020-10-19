@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81719" started-at="2020-08-08T09:15:34Z" finished-at="2020-08-08T09:16:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81719" started-at="2020-08-08T09:15:34Z" finished-at="2020-08-08T09:16:56Z">
+      <class name="TestCases.LoginApplication">
+        <test-method status="PASS" signature="Browser()[pri:0, instance:TestCases.LoginApplication@7ac7a4e4]" name="Browser" duration-ms="18686" started-at="2020-08-08T14:45:34Z" finished-at="2020-08-08T14:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestCases.LoginApplication@7ac7a4e4]" name="Login" duration-ms="41131" started-at="2020-08-08T14:45:53Z" finished-at="2020-08-08T14:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Home()[pri:0, instance:TestCases.LoginApplication@7ac7a4e4]" name="Home" duration-ms="21510" started-at="2020-08-08T14:46:34Z" depends-on-methods="TestCases.LoginApplication.Login" finished-at="2020-08-08T14:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+      </class> <!-- TestCases.LoginApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

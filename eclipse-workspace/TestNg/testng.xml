@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+
+ <test name="Personal Loan">
+  <parameter name="URL" value="qaclickacademy.com"/>
+   
+ 
+    <classes>
+      <class name="com.kesav.TestNg.Demo1">
+      <methods>
+      <include name="Demo"/>
+      </methods>
+      </class>
+      <class name="com.kesav.TestNg.Demo2"/>
+      <class name="com.kesav.TestNg.Demo4"/>
+      </classes>
+      </test>
+      <test name="Car Loan">
+      <parameter name="APIKey/username" value = "123456"/>
+      <classes>
+      <class name="com.kesav.TestNg.Demo3">
+      <methods>
+      <exclude name="Mobile.*"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+ <!-- Suite -->

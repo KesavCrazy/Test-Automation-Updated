@@ -1,0 +1,7 @@
+16:30:06.315 [main] INFO  com.kesav.Utility.BaseTest - -------------------AmazonEchoOrder---------------------------------
+16:30:10.601 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:30:10.606 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:30:14.530 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:30:19.683 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+16:30:27.048 [main] ERROR com.kesav.Constants.HomeMenuComponents - Quantity Clicked
+16:30:29.531 [main] ERROR com.kesav.Constants.HomeMenuComponents - addToCart Clicked

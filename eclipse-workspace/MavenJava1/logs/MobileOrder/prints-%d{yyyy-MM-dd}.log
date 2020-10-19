@@ -1,0 +1,12 @@
+14:40:40.790 [main] INFO  com.kesav.Utility.BaseTest - -------------------MobileOrder---------------------------------
+14:40:45.176 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+14:40:45.180 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+14:40:49.139 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+14:40:52.002 [main] ERROR com.kesav.Constants.HomeSearchDropdownBox - Electronics Clicked
+14:41:00.108 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+14:41:02.280 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+14:41:02.937 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+14:41:06.805 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+14:41:10.537 [main] ERROR com.kesav.Constants.MobileBrandsCheckBox - samsung Clicked
+14:41:11.664 [main] ERROR com.kesav.Constants.MobileProducts - galaxyM31 Clicked
+14:41:18.086 [main] ERROR com.kesav.Constants.HomeMenuComponents - addToCart Clicked

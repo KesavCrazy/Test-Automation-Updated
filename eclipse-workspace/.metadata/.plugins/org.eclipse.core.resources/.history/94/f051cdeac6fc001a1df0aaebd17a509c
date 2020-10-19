@@ -1,0 +1,33 @@
+package StepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+@RunWith(Cucumber.class)
+public class MyStepDefinition {
+	WebDriver driver; 
+    @Given("^User is n greencart landing page$")
+    public void user_is_n_greencart_landing_page() throws Throwable {
+    	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver.exe");
+		 driver =  new ChromeDriver(); 
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+    }
+
+    @When("^User Searched for \"([^\"]*)\" vegetables$")
+    public void user_searched_for_something_vegetables(String strArg1) throws Throwable {
+       driver.findElement(By.xpath("//input[@type='search']")).sendKeys("");
+    }
+
+    @Then("^\"([^\"]*)\" results are displayed$")
+    public void something_results_are_displayed(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
+}

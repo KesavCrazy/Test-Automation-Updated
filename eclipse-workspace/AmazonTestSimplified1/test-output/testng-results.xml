@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39796" started-at="2020-09-03T06:36:42Z" finished-at="2020-09-03T06:37:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39796" started-at="2020-09-03T06:36:42Z" finished-at="2020-09-03T06:37:22Z">
+      <class name="com.kesav.TestCases.TvOrder">
+        <test-method status="PASS" signature="LaunchSite()[pri:0, instance:com.kesav.TestCases.TvOrder@1165b38]" name="LaunchSite" is-config="true" duration-ms="16532" started-at="2020-09-03T12:06:42Z" finished-at="2020-09-03T12:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSite -->
+        <test-method status="PASS" signature="sonyTvOrder()[pri:0, instance:com.kesav.TestCases.TvOrder@1165b38]" name="sonyTvOrder" duration-ms="19076" started-at="2020-09-03T12:06:58Z" finished-at="2020-09-03T12:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sonyTvOrder -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.kesav.TestCases.TvOrder@1165b38]" name="Close" is-config="true" duration-ms="4145" started-at="2020-09-03T12:07:17Z" finished-at="2020-09-03T12:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.kesav.TestCases.TvOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

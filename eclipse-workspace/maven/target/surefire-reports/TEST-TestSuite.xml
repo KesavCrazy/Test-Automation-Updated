@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,571.727" tests="93" errors="0" skipped="12" failures="14">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Admin\Downloads\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\eclipse-workspace\maven\target\test-classes;C:\Users\Admin\eclipse-workspace\maven\target\classes;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Admin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire8890886361448863895\surefirebooter3292108038321692973.jar C:\Users\Admin\AppData\Local\Temp\surefire8890886361448863895 2020-08-21T12-11-12_058-jvmRun1 surefire7707287755438052076tmp surefire_07667215131772305192tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\eclipse-workspace\maven\target\test-classes;C:\Users\Admin\eclipse-workspace\maven\target\classes;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Admin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="C:\Users\Admin\eclipse-workspace\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire8890886361448863895\surefirebooter3292108038321692973.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\Admin\eclipse-workspace\maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Admin\Downloads\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin;C:\Program Files\Java;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="LaunchCreateAccountPage" classname="com.kesav.TestCases.CreateAccountPageDataProviderExcel" time="23.019">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 3010
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:11:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Credentials[hajsahdjhi, 6.736486873E9, agshdg@gmail.com, gdgags525365](1)" classname="com.kesav.TestCases.CreateAccountPageDataProviderExcel" time="1.022"/>
+  <testcase name="LaunchCreateAccountPage" classname="com.kesav.TestCases.CreateAccountPageExcel" time="31.449">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 27041
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:11:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Credentials" classname="com.kesav.TestCases.CreateAccountPageExcel" time="1.26"/>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.MobileComputer" time="11.848">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 6899
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:12:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="AmazonFullStoreDir" classname="com.kesav.TestCases.MobileComputer" time="34.614"/>
+  <testcase name="ScreenShot" classname="com.kesav.TestCases.MobileComputer" time="1.352"/>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.AudibleAudioBook" time="17.649">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43799
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:12:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="AudibleAudioBook" classname="com.kesav.TestCases.AudibleAudioBook" time="14.064">
+    <system-out><![CDATA[TestCase Failed
+TestCase Passed
+]]></system-out>
+  </testcase>
+  <testcase name="LaunchLogin" classname="com.kesav.TestCases.ProductOrderBook" time="23.346">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 10601
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:13:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ProductBook" classname="com.kesav.TestCases.ProductOrderBook" time="19.002"/>
+  <testcase name="ChildTab" classname="com.kesav.TestCases.ProductOrderBook" time="2.154">
+    <system-out><![CDATA[https://www.amazon.in/Two-Nicholas-Sparks/dp/0751550051/ref=sr_1_6?dchild=1&keywords=nicholas+sparks+novels&qid=1597992262&s=books&sr=1-6
+]]></system-out>
+  </testcase>
+  <testcase name="addToCart" classname="com.kesav.TestCases.ProductOrderBook" time="13.147">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;add-to-cart-button&quot;]&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 013b26cc11ebfad43e92773077b24370&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;add-to-cart-button&quot;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-button"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 013b26cc11ebfad43e92773077b24370
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-button"]}
+	at com.kesav.TestCases.ProductOrderBook.addToCart(ProductOrderBook.java:57)
+]]></failure>
+    <system-out><![CDATA[TEST2https://www.amazon.in/Two-Nicholas-Sparks/dp/0751550051/ref=sr_1_6?dchild=1&keywords=nicholas+sparks+novels&qid=1597992262&s=books&sr=1-6
+]]></system-out>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.FullStoreDirNoOFLinks" time="21.796">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 44872
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:14:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="EchoAlexaNoOfLinks" classname="com.kesav.TestCases.FullStoreDirNoOFLinks" time="14.659">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;hmenu-content&quot;]/ul[1]/li[22]/a&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4fc7d86e67aab26d8fd0ca81c36f2001&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;hmenu-content&quot;]/ul[1]/li[22]/a}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hmenu-content"]/ul[1]/li[22]/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4fc7d86e67aab26d8fd0ca81c36f2001
+*** Element info: {Using=xpath, value=//*[@id="hmenu-content"]/ul[1]/li[22]/a}
+	at com.kesav.TestCases.FullStoreDirNoOFLinks.EchoAlexaNoOfLinks(FullStoreDirNoOFLinks.java:36)
+]]></failure>
+  </testcase>
+  <testcase name="TvAppElecNoOfLinks" classname="com.kesav.TestCases.FullStoreDirNoOFLinks" time="0">
+    <skipped message="Method FullStoreDirNoOFLinks.TvAppElecNoOfLinks()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="SportFitness" classname="com.kesav.TestCases.FullStoreDirNoOFLinks" time="0">
+    <skipped message="Method FullStoreDirNoOFLinks.SportFitness()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="KindleEBook" classname="com.kesav.TestCases.FullStoreDirNoOFLinks" time="0">
+    <skipped message="Method FullStoreDirNoOFLinks.KindleEBook()[pri:0, instance:com.kesav.TestCases.FullStoreDirNoOFLinks@11a9e7c8] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageHomeKitchenPet" time="19.886">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 13359
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:15:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Menu" classname="com.kesav.TestCases.HomePageHomeKitchenPet" time="45.185">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;search&quot;]/div[1]/div[2]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ea13cf9a8d78dfa71da0bc7874d11012&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;search&quot;]/div[1]/div[2]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea13cf9a8d78dfa71da0bc7874d11012
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a}
+	at com.kesav.TestCases.HomePageHomeKitchenPet.Menu(HomePageHomeKitchenPet.java:42)
+]]></failure>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageNoOFLinks" time="16.001">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 5502
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:16:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="NoOfLinks" classname="com.kesav.TestCases.HomePageNoOFLinks" time="13.636">
+    <system-out><![CDATA[13
+Echo Dot
+All new Amazon Echo
+Echo Show 8
+Echo Input Portable Speaker
+Echo Plus
+Echo Show 5
+Echo Studio
+See all devices with Alexa
+Meet Alexa
+Alexa Skills
+Alexa App
+Alexa Smart Home
+Amazon Prime Music
+]]></system-out>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageAmzEcho" time="22.324">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 4730
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:16:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="HomePagePantryNext" classname="com.kesav.TestCases.HomePageAmzEcho" time="5.66">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;MlHBk5Gkfht_8J9H_2pxtg&quot;]/div[2]/div[2]/div[2]/a/div[1]/img&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fe695536a724921fa3caab69bfbe6791&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;MlHBk5Gkfht_8J9H_2pxtg&quot;]/div[2]/div[2]/div[2]/a/div[1]/img}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="MlHBk5Gkfht_8J9H_2pxtg"]/div[2]/div[2]/div[2]/a/div[1]/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fe695536a724921fa3caab69bfbe6791
+*** Element info: {Using=xpath, value=//*[@id="MlHBk5Gkfht_8J9H_2pxtg"]/div[2]/div[2]/div[2]/a/div[1]/img}
+	at com.kesav.TestCases.HomePageAmzEcho.HomePagePantryNext(HomePageAmzEcho.java:29)
+]]></failure>
+  </testcase>
+  <testcase name="Close" classname="com.kesav.TestCases.HomePageAmzEcho" time="0">
+    <skipped message="Method HomePageAmzEcho.Close()[pri:0, instance:com.kesav.TestCases.HomePageAmzEcho@12d4bf7e] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageComputer" time="17.956">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 34776
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:17:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="HomePageComputerNext" classname="com.kesav.TestCases.HomePageComputer" time="41.712"/>
+  <testcase name="Close" classname="com.kesav.TestCases.HomePageComputer" time="6.057"/>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageShoppingDay" time="41.402">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14471
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:18:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ShoppingDay" classname="com.kesav.TestCases.HomePageShoppingDay" time="14.943">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;mgt-email-sms-input&quot;]&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bbb03d91c3c6dc5f9073fc1e4efc7396&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;mgt-email-sms-input&quot;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mgt-email-sms-input"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bbb03d91c3c6dc5f9073fc1e4efc7396
+*** Element info: {Using=xpath, value=//*[@id="mgt-email-sms-input"]}
+	at com.kesav.TestCases.HomePageShoppingDay.ShoppingDay(HomePageShoppingDay.java:30)
+]]></failure>
+  </testcase>
+  <testcase name="Close" classname="com.kesav.TestCases.HomePageShoppingDay" time="0">
+    <skipped message="Method HomePageShoppingDay.Close()[pri:0, instance:com.kesav.TestCases.HomePageShoppingDay@7b227d8d] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="LaunchLogin" classname="com.kesav.TestCases.PrimeMusic" time="22.347">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 13206
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:19:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="PrimeMusic" classname="com.kesav.TestCases.PrimeMusic" time="49.963">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;search&quot;]/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 45790b908d707a40c2a34cc748366590&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;search&quot;]/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 45790b908d707a40c2a34cc748366590
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[1]/div/div/span/a/div/img}
+	at com.kesav.TestCases.PrimeMusic.PrimeMusic(PrimeMusic.java:39)
+]]></failure>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.Covid" time="16.037">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 48833
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:20:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="AmazonCovid" classname="com.kesav.TestCases.Covid" time="36.07">
+    <failure message="element not interactable: element has zero size&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 200fa95595b848c595a276241af13840" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable: element has zero size
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 200fa95595b848c595a276241af13840
+	at com.kesav.TestCases.Covid.AmazonCovid(Covid.java:40)
+]]></failure>
+  </testcase>
+  <testcase name="Close" classname="com.kesav.TestCases.Covid" time="0">
+    <skipped message="Method Covid.Close()[pri:0, instance:com.kesav.TestCases.Covid@45018215] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageMenu" time="16.57">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 38258
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:21:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Menu" classname="com.kesav.TestCases.HomePageMenu" time="28.041"/>
+  <testcase name="EchoDot" classname="com.kesav.TestCases.HomePageMenu" time="12.408"/>
+  <testcase name="AllNewAmzEcho" classname="com.kesav.TestCases.HomePageMenu" time="19.056"/>
+  <testcase name="echoShow5" classname="com.kesav.TestCases.HomePageMenu" time="23.496"/>
+  <testcase name="MeetAlexa" classname="com.kesav.TestCases.HomePageMenu" time="11.783"/>
+  <testcase name="AlexaSmartHome" classname="com.kesav.TestCases.HomePageMenu" time="14.475"/>
+  <testcase name="AlexaPrimeMusic" classname="com.kesav.TestCases.HomePageMenu" time="15.062"/>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePagePantry" time="17.445">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 16813
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:23:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="HomePagePantryNext" classname="com.kesav.TestCases.HomePagePantry" time="20.929"/>
+  <testcase name="Close" classname="com.kesav.TestCases.HomePagePantry" time="4.578"/>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.FullStore" time="18.105">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 17962
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:24:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="AmazonFullStoreDir" classname="com.kesav.TestCases.FullStore" time="36.919">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;add-to-cart-button&quot;]&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 275ff12238fae1d1682571fdcf2ba06c&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;add-to-cart-button&quot;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-button"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 275ff12238fae1d1682571fdcf2ba06c
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-button"]}
+	at com.kesav.TestCases.FullStore.AmazonFullStoreDir(FullStore.java:38)
+]]></failure>
+  </testcase>
+  <testcase name="Close" classname="com.kesav.TestCases.FullStore" time="0">
+    <skipped message="Method FullStore.Close()[pri:0, instance:com.kesav.TestCases.FullStore@30b7c004] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="LaunchCreateAccountPage" classname="com.kesav.TestCases.CreateAccountPage" time="17.887">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;createAccountSubmit&quot;]&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2dee4ae1cd8550f37d1505e6ca3b1e30&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;createAccountSubmit&quot;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="createAccountSubmit"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2dee4ae1cd8550f37d1505e6ca3b1e30
+*** Element info: {Using=xpath, value=//*[@id="createAccountSubmit"]}
+	at com.kesav.TestCases.CreateAccountPage.LaunchCreateAccountPage(CreateAccountPage.java:22)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 22185
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:25:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="CreateAccount" classname="com.kesav.TestCases.CreateAccountPage" time="0">
+    <skipped message="Method CreateAccountPage.CreateAccount()[pri:0, instance:com.kesav.TestCases.CreateAccountPage@79efed2d] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageSelectAddress" time="18.688">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18496
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:25:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ShoppingDay" classname="com.kesav.TestCases.HomePageSelectAddress" time="11.197">
+    <system-out><![CDATA[https://www.amazon.in/
+Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+]]></system-out>
+  </testcase>
+  <testcase name="Close" classname="com.kesav.TestCases.HomePageSelectAddress" time="4.59"/>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.BeautyHealthGrocery" time="17.659">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 8178
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:26:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="BeautyHealthGrocery" classname="com.kesav.TestCases.BeautyHealthGrocery" time="13.905">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;a-page&quot;]/div[4]/div/div[2]/div/div[1]/div[1]/ul[2]/li[2]/a&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b6f2b579cc15437d2cb121741293529b&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;a-page&quot;]/div[4]/div/div[2]/div/div[1]/div[1]/ul[2]/li[2]/a}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="a-page"]/div[4]/div/div[2]/div/div[1]/div[1]/ul[2]/li[2]/a"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b6f2b579cc15437d2cb121741293529b
+*** Element info: {Using=xpath, value=//*[@id="a-page"]/div[4]/div/div[2]/div/div[1]/div[1]/ul[2]/li[2]/a}
+	at com.kesav.TestCases.BeautyHealthGrocery.BeautyHealthGrocery(BeautyHealthGrocery.java:36)
+]]></failure>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="21.134">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 28324
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:26:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="AboutUs" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="19.844">
+    <system-out><![CDATA[https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+]]></system-out>
+  </testcase>
+  <testcase name="Career" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="11.908">
+    <system-out><![CDATA[https://amazon.jobs/en/
+]]></system-out>
+  </testcase>
+  <testcase name="PressRelease" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="7.807">
+    <system-out><![CDATA[https://www.amazon.in/b?ie=UTF8&node=1592137031&ref_=footer_press
+]]></system-out>
+  </testcase>
+  <testcase name="AmazonCares" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="12.337">
+    <system-out><![CDATA[https://www.amazon.in/b?ie=UTF8&node=8872558031&ref_=footer_cares
+]]></system-out>
+  </testcase>
+  <testcase name="GiftASmile" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="13.94">
+    <system-out><![CDATA[https://www.amazon.in/Online-Charity/b?ie=UTF8&node=4594605031&ref_=footer_smile
+]]></system-out>
+  </testcase>
+  <testcase name="Twitter" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="22.468">
+    <system-out><![CDATA[https://twitter.com/AmazonIN
+]]></system-out>
+  </testcase>
+  <testcase name="Facebook" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="13.648">
+    <system-out><![CDATA[https://www.amazon.in/Online-Charity/b?ie=UTF8&node=4594605031&ref_=footer_smile
+]]></system-out>
+  </testcase>
+  <testcase name="Instagram" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="13.17">
+    <system-out><![CDATA[https://www.instagram.com/amazondotin/
+]]></system-out>
+  </testcase>
+  <testcase name="SellOnAmzon" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="9.747">
+    <system-out><![CDATA[https://www.amazon.in/b/?_encoding=UTF8&ld=AZINSOANavDesktopFooter&node=2838698031&ref_=nav_footer_sell
+]]></system-out>
+  </testcase>
+  <testcase name="SellunderAmazon" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="8.328">
+    <system-out><![CDATA[https://www.amazon.in/b/?node=16192220031&ref_=map_1_b2b_GW_FT
+]]></system-out>
+  </testcase>
+  <testcase name="BecomeAnAffi" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="14.112">
+    <system-out><![CDATA[https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+]]></system-out>
+  </testcase>
+  <testcase name="FulfilmentByAmazon" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="6.986">
+    <system-out><![CDATA[https://advertising.amazon.in/?ref=Amz.in
+]]></system-out>
+  </testcase>
+  <testcase name="AdvertiseYourPrduct" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="11.603">
+    <system-out><![CDATA[https://www.amazonpay.in/merchant
+]]></system-out>
+  </testcase>
+  <testcase name="AmzPayOn" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="5.342">
+    <system-out><![CDATA[https://affiliate-program.amazon.in/?ref_=footer_assoc&utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW
+]]></system-out>
+  </testcase>
+  <testcase name="covidAmzon" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="7.425">
+    <system-out><![CDATA[https://www.amazon.in/gp/help/customer/display.html?ie=UTF8&nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid
+]]></system-out>
+  </testcase>
+  <testcase name="yourAcc" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="9.07">
+    <system-out><![CDATA[https://affiliate-program.amazon.in/?ref_=footer_assoc&utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW
+]]></system-out>
+  </testcase>
+  <testcase name="returnsCentre" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="13.932">
+    <system-out><![CDATA[https://affiliate-program.amazon.in/?ref_=footer_assoc&utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW
+]]></system-out>
+  </testcase>
+  <testcase name="purchaseProtection" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="7.061">
+    <system-out><![CDATA[https://affiliate-program.amazon.in/?ref_=footer_assoc&utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW
+]]></system-out>
+  </testcase>
+  <testcase name="amzAppDownload" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="5.982">
+    <system-out><![CDATA[https://affiliate-program.amazon.in/?ref_=footer_assoc&utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW
+]]></system-out>
+  </testcase>
+  <testcase name="amzAssDownload" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="6.776">
+    <system-out><![CDATA[https://affiliate-program.amazon.in/?ref_=footer_assoc&utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW
+]]></system-out>
+  </testcase>
+  <testcase name="Help" classname="com.kesav.TestCases.HomePageHomeGetToKnow" time="8.106">
+    <system-out><![CDATA[https://affiliate-program.amazon.in/?ref_=footer_assoc&utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW
+]]></system-out>
+  </testcase>
+  <testcase name="LaunchLogin" classname="com.kesav.TestCases.PrimeVideo" time="29.44">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18342
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:31:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="PrimeVideo" classname="com.kesav.TestCases.PrimeVideo" time="7.134"/>
+  <testcase name="NewTab" classname="com.kesav.TestCases.PrimeVideo" time="0.586"/>
+  <testcase name="PrimeVideoNewTab" classname="com.kesav.TestCases.PrimeVideo" time="46.777">
+    <failure message="element click intercepted: Element &lt;img class=&quot;fuorrko&quot; src=&quot;data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjciIHZpZXdCb3g9IjAgMCAyNyAyNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JvdXAgNTwvdGl0bGU+PGcgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTMuNSAyNEMxOS4yOTkgMjQgMjQgMTkuMjk5IDI0IDEzLjVTMTkuMjk5IDMgMTMuNSAzIDMgNy43MDEgMyAxMy41IDcuNzAxIDI0IDEzLjUgMjR6bTAtM2E3LjUgNy41IDAgMSAwIDAtMTUgNy41IDcuNSAwIDAgMCAwIDE1eiIvPjxwYXRoIGQ9Ik0xMS44OCAwaDMuMjRsMS4wOCA0LjMyaC01LjR6TTI3IDExLjg4djMuMjRsLTQuMzIgMS4wOHYtNS40ek0wIDExLjg4djMuMjRsNC4zMiAxLjA4di01LjR6TTUuNTEyIDIuNzM0TDMuMjYgNS4wNjRsMi4zNTcgMy43NzlMOS4zNyA0Ljk1OHpNMjEuNDg4IDIuNzM0bDIuMjUxIDIuMzMtMi4zNTcgMy43NzktMy43NTEtMy44ODV6TTUuNTEyIDI0LjI2NmwtMi4yNTEtMi4zMyAyLjM1Ny0zLjc3OSAzLjc1MSAzLjg4NXpNMjEuNDg4IDI0LjI2NmwyLjI1MS0yLjMzLTIuMzU3LTMuNzc5LTMuNzUxIDMuODg1ek0xMS44OCAyN2gzLjI0bDEuMDgtNC4zMmgtNS40eiIvPjwvZz48L3N2Zz4=&quot; alt=&quot;&quot;&gt; is not clickable at point (1143, 47). Other element would receive the click: &lt;div class=&quot;f1upyuoq f1uwz81n&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e7382a3c66ee8cb789309a52c6fbd2ed" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <img class="fuorrko" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjciIHZpZXdCb3g9IjAgMCAyNyAyNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JvdXAgNTwvdGl0bGU+PGcgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTMuNSAyNEMxOS4yOTkgMjQgMjQgMTkuMjk5IDI0IDEzLjVTMTkuMjk5IDMgMTMuNSAzIDMgNy43MDEgMyAxMy41IDcuNzAxIDI0IDEzLjUgMjR6bTAtM2E3LjUgNy41IDAgMSAwIDAtMTUgNy41IDcuNSAwIDAgMCAwIDE1eiIvPjxwYXRoIGQ9Ik0xMS44OCAwaDMuMjRsMS4wOCA0LjMyaC01LjR6TTI3IDExLjg4djMuMjRsLTQuMzIgMS4wOHYtNS40ek0wIDExLjg4djMuMjRsNC4zMiAxLjA4di01LjR6TTUuNTEyIDIuNzM0TDMuMjYgNS4wNjRsMi4zNTcgMy43NzlMOS4zNyA0Ljk1OHpNMjEuNDg4IDIuNzM0bDIuMjUxIDIuMzMtMi4zNTcgMy43NzktMy43NTEtMy44ODV6TTUuNTEyIDI0LjI2NmwtMi4yNTEtMi4zMyAyLjM1Ny0zLjc3OSAzLjc1MSAzLjg4NXpNMjEuNDg4IDI0LjI2NmwyLjI1MS0yLjMzLTIuMzU3LTMuNzc5LTMuNzUxIDMuODg1ek0xMS44OCAyN2gzLjI0bDEuMDgtNC4zMmgtNS40eiIvPjwvZz48L3N2Zz4=" alt=""> is not clickable at point (1143, 47). Other element would receive the click: <div class="f1upyuoq f1uwz81n">...</div>
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e7382a3c66ee8cb789309a52c6fbd2ed
+	at com.kesav.TestCases.PrimeVideo.PrimeVideoNewTab(PrimeVideo.java:54)
+]]></failure>
+  </testcase>
+  <testcase name="LaunchLogin" classname="com.kesav.TestCases.MoviesMusicVideoGames" time="94.393">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 12566
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1597993357.971][WARNING]: Timed out connecting to Chrome, retrying...
+Aug 21, 2020 12:32:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="AmazonMovieMusicVideoGames" classname="com.kesav.TestCases.MoviesMusicVideoGames" time="70.203">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;quantity&quot;]&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d73019d9c3ae07087169e755788ddad4&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;quantity&quot;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="quantity"]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d73019d9c3ae07087169e755788ddad4
+*** Element info: {Using=xpath, value=//*[@id="quantity"]}
+	at com.kesav.TestCases.MoviesMusicVideoGames.AmazonMovieMusicVideoGames(MoviesMusicVideoGames.java:34)
+]]></failure>
+  </testcase>
+  <testcase name="LaunchHomePage" classname="com.kesav.TestCases.HomePageBabyProducts" time="20.508">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 17139
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:35:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="HomePageBabyProductsNext" classname="com.kesav.TestCases.HomePageBabyProducts" time="30.432">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;leftNav&quot;]/ul[9]/div/li[1]/span/a/i&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2e9b7624bc38f45b1038823ff69065d8&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;leftNav&quot;]/ul[9]/div/li[1]/span/a/i}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftNav"]/ul[9]/div/li[1]/span/a/i"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2e9b7624bc38f45b1038823ff69065d8
+*** Element info: {Using=xpath, value=//*[@id="leftNav"]/ul[9]/div/li[1]/span/a/i}
+	at com.kesav.TestCases.HomePageBabyProducts.HomePageBabyProductsNext(HomePageBabyProducts.java:32)
+]]></failure>
+  </testcase>
+  <testcase name="HomePageBabyProductsNext2" classname="com.kesav.TestCases.HomePageBabyProducts" time="0">
+    <skipped message="Method HomePageBabyProducts.HomePageBabyProductsNext2()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="Close" classname="com.kesav.TestCases.HomePageBabyProducts" time="0">
+    <skipped message="Method HomePageBabyProducts.Close()[pri:0, instance:com.kesav.TestCases.HomePageBabyProducts@147ed70f] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="LaunchLogin" classname="com.kesav.TestCases.GiftCards" time="28.485">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 38138
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 21, 2020 12:36:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="GiftCards" classname="com.kesav.TestCases.GiftCards" time="57.465">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;search&quot;]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/span/a/div/img&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-U7MG1A9&apos;, ip: &apos;192.168.43.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5fe24ae630252b1633ee734877c45ff0&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;search&quot;]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/span/a/div/img}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/span/a/div/img"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U7MG1A9', ip: '192.168.43.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5fe24ae630252b1633ee734877c45ff0
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/span/a/div/img}
+	at com.kesav.TestCases.GiftCards.GiftCards(GiftCards.java:35)
+]]></failure>
+  </testcase>
+  <testcase name="NewTab" classname="com.kesav.TestCases.GiftCards" time="0">
+    <skipped message="Method GiftCards.NewTab()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="LevisCard" classname="com.kesav.TestCases.GiftCards" time="0">
+    <skipped message="Method GiftCards.LevisCard()[pri:0, instance:com.kesav.TestCases.GiftCards@61dd025] depends on not successfully finished methods"/>
+  </testcase>
+</testsuite>

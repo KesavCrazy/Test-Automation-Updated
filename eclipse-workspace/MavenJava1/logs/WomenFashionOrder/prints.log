@@ -1,0 +1,26 @@
+15:24:45.237 [main] INFO  com.kesav.Utility.BaseTest - -------------------WomenFashionOrder---------------------------------
+15:25:12.681 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+15:25:12.916 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+15:25:24.969 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+15:25:33.559 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+15:25:52.305 [main] DEBUG com.kesav.Constants.MenuWomensClothingComponents - westernWear clicked
+15:26:17.905 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+15:26:22.245 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+15:26:25.837 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice1  Clicked
+15:26:43.499 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+15:26:51.574 [main] ERROR com.kesav.Constants.WomensProducts - womensTops Not Clicked
+15:30:27.436 [main] INFO  com.kesav.Utility.BaseTest - -------------------WomenFashionOrder---------------------------------
+15:30:49.491 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+15:30:49.515 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+15:31:05.514 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+15:31:48.043 [main] INFO  com.kesav.Utility.BaseTest - -------------------WomenFashionOrder---------------------------------
+15:32:05.115 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+15:32:05.184 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+15:32:10.809 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+15:32:16.029 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+15:32:22.252 [main] DEBUG com.kesav.Constants.MenuWomensClothingComponents - westernWear clicked
+15:32:28.951 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+15:32:33.855 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice1  Clicked
+15:32:34.504 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice1  Clicked
+15:32:35.796 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+15:32:40.976 [main] ERROR com.kesav.Constants.WomensProducts - womensTops Not Clicked

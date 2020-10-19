@@ -1,0 +1,24 @@
+15:52:37.421 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+15:52:37.473 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+15:52:40.775 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+15:52:46.475 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+15:52:46.685 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+15:52:53.907 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+15:52:56.644 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+15:53:01.808 [main] ERROR com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove Not Clicked
+16:03:10.330 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:03:10.358 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:03:14.370 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:03:19.846 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+16:03:20.062 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+16:03:26.417 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+16:03:29.078 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+16:03:34.214 [main] ERROR com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove Not Clicked
+16:12:11.339 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+16:12:11.363 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+16:12:15.523 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+16:12:20.752 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+16:12:20.964 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+16:12:27.555 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+16:12:29.561 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+16:12:34.667 [main] ERROR com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove Not Clicked

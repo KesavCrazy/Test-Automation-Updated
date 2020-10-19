@@ -1,0 +1,73 @@
+12:09:19.027 [main] INFO  com.kesav.Utility.BaseTest - -------------------TvOrder---------------------------------
+12:09:28.536 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:09:28.557 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:09:32.646 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+12:09:42.189 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:09:42.470 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:09:50.109 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+12:09:53.641 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+12:09:54.770 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+12:10:47.343 [main] INFO  com.kesav.Utility.BaseTest - -------------------TvOrder---------------------------------
+12:10:55.320 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:10:55.336 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:10:59.314 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+12:11:07.561 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:11:07.897 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:11:14.647 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+12:11:18.784 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+12:11:19.448 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+12:11:23.172 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+12:11:24.008 [main] DEBUG com.kesav.Constants.AmountRange - LowPrice2  Clicked
+12:11:24.314 [main] DEBUG com.kesav.Constants.AmountRange - MaxPrice2  Clicked
+12:11:26.701 [main] DEBUG com.kesav.Constants.AmountRange - Go  Clicked
+12:22:52.395 [main] INFO  com.kesav.Utility.BaseTest - -------------------TvOrder---------------------------------
+12:23:04.864 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:23:04.883 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:23:09.538 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+12:23:19.450 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:23:19.961 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:23:28.122 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+12:23:32.535 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+12:23:33.829 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+12:32:00.111 [main] INFO  com.kesav.Utility.BaseTest - -------------------TvOrder---------------------------------
+12:32:09.028 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:32:09.048 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:32:14.282 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+12:32:19.707 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:32:20.014 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:32:28.420 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+12:32:34.055 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+12:32:35.438 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
+12:35:54.427 [main] INFO  TvOrder - -------------------TvOrder---------------------------------
+12:36:03.902 [main] DEBUG TvOrder -  Set property Successfully executed
+12:36:03.925 [main] DEBUG TvOrder - Hitting Amazon Server
+12:36:08.992 [main] DEBUG TvOrder - Amazon Server opened Successfully
+12:36:43.050 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:36:46.846 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:36:56.910 [main] INFO  TvOrder - -------------------TvOrder---------------------------------
+12:37:06.190 [main] DEBUG TvOrder -  Set property Successfully executed
+12:37:06.209 [main] DEBUG TvOrder - Hitting Amazon Server
+12:37:11.577 [main] DEBUG TvOrder - Amazon Server opened Successfully
+12:37:38.489 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:37:38.781 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:37:47.370 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+12:37:47.684 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+12:37:52.763 [main] ERROR com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove Not Clicked
+12:40:42.263 [main] INFO  com.kesav.Utility.BaseTest - -------------------TvOrder---------------------------------
+12:40:50.909 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:40:50.927 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:40:55.242 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+12:41:02.125 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:41:02.315 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:41:10.578 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+12:41:10.698 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+12:41:15.778 [main] ERROR com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove Not Clicked
+12:47:39.323 [main] INFO  com.kesav.Utility.BaseTest - -------------------TvOrder---------------------------------
+12:47:47.188 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+12:47:47.209 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+12:47:52.021 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+12:48:18.272 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+12:48:18.499 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+12:48:25.954 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+12:48:30.171 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+12:48:31.018 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked

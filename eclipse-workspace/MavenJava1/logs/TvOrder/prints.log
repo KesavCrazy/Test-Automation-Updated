@@ -1,0 +1,9 @@
+15:09:12.830 [main] INFO  com.kesav.Utility.BaseTest - -------------------TvOrder---------------------------------
+15:09:23.145 [main] DEBUG com.kesav.Utility.BaseTest -  Set property Successfully executed
+15:09:23.167 [main] DEBUG com.kesav.Utility.BaseTest - Hitting Amazon Server
+15:09:27.830 [main] DEBUG com.kesav.Utility.BaseTest - Amazon Server opened Successfully
+15:09:33.109 [main] DEBUG com.kesav.Constants.HomeMenuComponents - Home Menu Clicked
+15:09:33.330 [main] DEBUG com.kesav.Constants.HomeMenuComponents - tvAppliancesElectronics clicked
+15:09:40.443 [main] DEBUG com.kesav.Constants.HomeMenuComponents - televisons Not Clicked
+15:09:44.309 [main] DEBUG com.kesav.Constants.HomeMenuComponents - androidBased  Clicked
+15:09:45.379 [main] DEBUG com.kesav.Constants.HomeMenuComponents - fiftyFiveAbove  Clicked
